@@ -1,4 +1,4 @@
-22763322679546451
+22785484724423109
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85791,6 +85791,13 @@ ML414H_IV01E
 0
 2
 2
+SparkFun-Board
+ThingPlus
+
+
+0
+28
+28
 SparkFun-Capacitor
 C_0402_1005Metric
 Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -85833,6 +85840,34 @@ PANASONIC_D
 0
 2
 2
+SparkFun-Clock
+CRYSTAL-SMD-2.0X1.6MM
+<h3>2.0 x 1.6 mm Crystal</h3>{return}<p><a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/crystalu/p79e.ashx">Example Datasheet</a> (XRCGB_F_P)</p>
+
+0
+4
+3
+SparkFun-Clock
+CRYSTAL-SMD-3.2X2.5MM
+<h3>3.2 x 2.5mm SMD Crystal Package</h3>{return}<p>Example: <a href="http://www.digikey.com/product-search/en?keywords=SER3627TR-ND">SX-32S</a></p>
+
+0
+4
+4
+SparkFun-Clock
+CRYSTAL-TCXO-SMD-1.65X1.25
+<h3>IQD 26MHz TCXO</h3>{return}<p>Specifications:{return}<ul><li>Pin count: 4</li>{return}<li>Area: 1.65 mm x 1.25 mm</li>{return}</ul></p>{return}<p><a href=https://www.mouser.co.uk/datasheet/2/741/iqxt-350-1-33-1075257.pdf>Datasheet referenced for footprint</a></p>
+
+0
+4
+4
+SparkFun-Coil
+RFCMF1220100M4T
+
+
+0
+4
+4
 SparkFun-Connector
 1X01
 
@@ -86477,6 +86512,34 @@ microSD_Friction_Fit_Molex
 0
 15
 10
+SparkFun-Display
+ePaper-2.13
+24 Pin FPC 0.5mm with contacts both sides.
+
+0
+26
+26
+SparkFun-Electromechanical
+RELAY-JZC-11F
+
+
+0
+5
+5
+SparkFun-Electromechanical
+RELAY-T90
+<h3>Relay SPDT Sealed - 20A (JQX-15F/005)</h3>{return}<p>These are massive single pole - double throw (SPDT) sealed relays. This means that when current is applied to the coil it throws a simple changeover switch, terminating the connection from the NC contact to ground and closing the NO contact. Use them to switch high voltage/high current devices.</p>{return}<p><a href="http://cdn.sparkfun.com/datasheets/Components/General/Relay.JQX-15F.pdf">Datasheet</a> (JQX-15F/005)</p>{return}<h4>Devices Using</h4>{return}<ul><li>RELAY-SPDT</li></ul>
+
+0
+5
+5
+SparkFun-Electromechanical
+RELAY_G5LE
+
+
+0
+5
+5
 SparkFun-Fuse
 0805
 <p><b>Generic 2012 (0805) package</b></p>{return}<p>0.2mm courtyard excess rounded to nearest 0.05mm.</p>
@@ -86723,6 +86786,13 @@ ESP-WROOM-32D{return}<br>{return}<br>{return}This version of the module contains
 47
 47
 SparkFun-RF
+ESP32-WROVER-E-IE
+ESP-WROOM-32D{return}<br>{return}<br>{return}This version of the module contains an onboard trace-antenna connector. {return}<br>{return}It is virtually identical to the onboard u.FL version (ESP32-WROOM-32U), {return}<br>{return}except it is slightly longer and requires the keepout zone.
+
+0
+47
+47
+SparkFun-RF
 PD0922J5050S2HF_ANA
 
 
@@ -86890,6 +86960,27 @@ TSSOP-16
 0
 16
 16
+SparkFun-Sensor
+LG-MLGA-14-1_Z8B00206105
+
+
+0
+14
+14
+SparkFun-Sensor
+MQ-4 Gas Sensor
+<h3>Gas Sensors - MQ-3, MQ-4, MQ-6, MQ-7, MQ-8</h3>{return}<p>Footprint is orientation agnostic.</p>{return}<p><a href="https://cdn.sparkfun.com/datasheets/Sensors/Biometric/MQ-3%20ver1.3%20-%20Manual.pdf">Datasheet</a></p>{return}<p>Specifications:{return}<ul>{return}<li>Pin Count: 6</li>{return}<li>Diameter: 14.5 mm</li>{return}</ul>{return}<p>Devices Using:</p>{return}<ul>{return}<li>GAS_SENSOR</li>{return}</ul>
+
+0
+6
+6
+SparkFun-Sensor
+MQ-7 Gas Sensor
+<h3>Gas Sensors - MQ-3, MQ-4, MQ-6, MQ-7, MQ-8</h3>{return}<p>Footprint is orientation agnostic.</p>{return}<p><a href="https://cdn.sparkfun.com/datasheets/Sensors/Biometric/MQ-3%20ver1.3%20-%20Manual.pdf">Datasheet</a></p>{return}<p>Specifications:{return}<ul>{return}<li>Pin Count: 6</li>{return}<li>Diameter: 14.5 mm</li>{return}</ul>{return}<p>Devices Using:</p>{return}<ul>{return}<li>GAS_SENSOR</li>{return}</ul>
+
+0
+6
+6
 SparkFun-Switch
 Button-CapacitiveTouch
 <h3>Conductive Button</h3>{return}<p>Used with rubber key pads on the <a href="https://www.sparkfun.com/products/retired/8602">Nordic Key FOB</a>. This one was designed and proven to work with the <a href="https://www.sparkfun.com/products/retired/9377">PolyCase Key FOB enclosures</a>.</p>
