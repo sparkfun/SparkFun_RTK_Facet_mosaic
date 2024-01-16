@@ -5480,7 +5480,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4d783f5a-30e0-474b-9f74-bcb0fbd31541)
   )
-  (text "To Qwiic Connector" (at 69.85 44.45 0)
+  (text "To Qwiic Connector" (at 72.39 44.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 603455cf-bb1a-425f-a14f-7d601903c4e4)
   )
@@ -5520,7 +5520,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b915f3c1-72e1-40c9-84e8-22d2d35fe30f)
   )
-  (text "Use boot control pins with caution: 0, 3, 45, 46" (at 119.38 113.03 0)
+  (text "Use boot control pins with caution: 0, 2, 5, 12, 15"
+    (at 119.38 113.03 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e3b50a9a-0ee9-436c-988f-5dc2009a8198)
   )
