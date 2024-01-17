@@ -1,4 +1,4 @@
-22785486173166723
+22788897873371366
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85862,6 +85862,13 @@ CRYSTAL-TCXO-SMD-1.65X1.25
 4
 4
 SparkFun-Coil
+INDUCTOR_4X4MM
+4x4mm Inductor - https://www.bourns.com/docs/Product-Datasheets/SRN4018.pdf
+
+0
+2
+2
+SparkFun-Coil
 RFCMF1220100M4T
 
 
@@ -86981,6 +86988,13 @@ MQ-7 Gas Sensor
 0
 6
 6
+SparkFun-Sensor
+SCD4X
+
+
+0
+21
+21
 SparkFun-Switch
 Button-CapacitiveTouch
 <h3>Conductive Button</h3>{return}<p>Used with rubber key pads on the <a href="https://www.sparkfun.com/products/retired/8602">Nordic Key FOB</a>. This one was designed and proven to work with the <a href="https://www.sparkfun.com/products/retired/9377">PolyCase Key FOB enclosures</a>.</p>
