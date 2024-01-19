@@ -16477,7 +16477,7 @@
       (stroke (width 0.01) (type solid)) (layer "F.Fab") (tstamp dac7d77a-b73a-432d-b9dd-368e8e18adcb))
     (fp_arc (start -3.409999 1.749999) (mid -3.55542 1.692442) (end -3.62 1.55)
       (stroke (width 0.01) (type solid)) (layer "F.Fab") (tstamp b42856dd-22df-41a9-af61-1929b7b6b54f))
-    (fp_arc (start 3.62 1.55) (mid 3.55542 1.692442) (end 3.409999 1.749999)
+    (fp_arc (start 3.62 1.55) (mid 3.555421 1.692445) (end 3.409999 1.749999)
       (stroke (width 0.01) (type solid)) (layer "F.Fab") (tstamp a1159357-8a0c-4b18-8da8-cb7b4fdee62c))
     (fp_poly
       (pts
@@ -17615,7 +17615,7 @@
       (stroke (width 0.01) (type solid)) (layer "F.Fab") (tstamp afb1478c-56c0-4eef-b338-0e0ada620ad0))
     (fp_arc (start -3.409999 1.749999) (mid -3.55542 1.692442) (end -3.62 1.55)
       (stroke (width 0.01) (type solid)) (layer "F.Fab") (tstamp e6885366-c283-47ef-b40d-bf56c7922d9e))
-    (fp_arc (start 3.62 1.55) (mid 3.55542 1.692442) (end 3.409999 1.749999)
+    (fp_arc (start 3.62 1.55) (mid 3.555421 1.692445) (end 3.409999 1.749999)
       (stroke (width 0.01) (type solid)) (layer "F.Fab") (tstamp a4d23299-4b34-49c2-9be6-72273e18dc31))
     (fp_poly
       (pts
@@ -17852,7 +17852,7 @@
       (stroke (width 0.01) (type solid)) (layer "F.Fab") (tstamp d8069e19-962d-4608-8a39-0efbbf0e7b80))
     (fp_arc (start -3.409999 1.749999) (mid -3.55542 1.692442) (end -3.62 1.55)
       (stroke (width 0.01) (type solid)) (layer "F.Fab") (tstamp 504b5eb6-8b08-4ba0-bdf5-83e0c6988939))
-    (fp_arc (start 3.62 1.55) (mid 3.55542 1.692442) (end 3.409999 1.749999)
+    (fp_arc (start 3.62 1.55) (mid 3.555421 1.692445) (end 3.409999 1.749999)
       (stroke (width 0.01) (type solid)) (layer "F.Fab") (tstamp f239316f-7646-4d90-9c10-49aecba700a3))
     (fp_poly
       (pts
@@ -31358,6 +31358,12 @@
     (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 8f17ff44-1ec5-4089-8ea8-58c58af06562))
   (gr_text "v10" (at 156.996 151.13) (layer "B.Cu" knockout) (tstamp 3c322aac-72fa-464e-a60f-a1d3fef083b6)
     (effects (font (size 1.016 1.016) (thickness 0.254) bold) (justify mirror))
+  )
+  (gr_text "Route Out" (at 154.686 110.998) (layer "Cmts.User") (tstamp 570434ac-410e-41c7-b4c5-78432d2c2afd)
+    (effects (font (size 0.75 0.75) (thickness 0.1875) bold) (justify left bottom))
+  )
+  (gr_text "Route Out" (at 121.92 111.125) (layer "Cmts.User") (tstamp 5b0a0fe7-934d-4221-a02f-680f7ea3b08b)
+    (effects (font (size 1.25 1.25) (thickness 0.3) bold) (justify left bottom))
   )
   (gr_text "No Clean Process" (at 171.400892 123.13059) (layer "F.Fab") (tstamp 274ecb59-f4c6-423b-802f-0a919616f5f9)
     (effects (font (size 2 2) (thickness 0.15)) (justify left bottom))
