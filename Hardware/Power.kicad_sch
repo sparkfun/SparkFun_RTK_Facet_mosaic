@@ -3464,6 +3464,31 @@
     )
   )
 
+  (symbol (lib_id "SparkFun-Connector:TestPoint_PTH") (at 86.36 129.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 35ef44a8-1f00-40bb-918c-46cc55be20f5)
+    (property "Reference" "TP23" (at 83.82 124.46 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "PTH" (at 86.36 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "SparkFun-Connector:1X01" (at 85.09 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 86.36 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b04d8f0e-6aef-4bcd-96dd-662f31e31873))
+    (instances
+      (project "SparkFun_RTK_Facet_mosaic"
+        (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/476b4701-5340-4853-910a-2af933cad777"
+          (reference "TP23") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "SparkFun-Capacitor:1.0uF_0402_16V_10%") (at 68.58 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 388b6e13-5adc-4449-9f29-b4a770bd4632)
@@ -4509,6 +4534,31 @@
       (project "SparkFun_RTK_Facet_mosaic"
         (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/476b4701-5340-4853-910a-2af933cad777"
           (reference "D5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "SparkFun-PowerSymbol:GND") (at 86.36 129.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9f75ebe4-3e0d-4700-a47e-6ac28b24c158)
+    (property "Reference" "#PWR0118" (at 86.36 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 86.36 133.35 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 86.36 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 86.36 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d8672fb9-1f01-4ae7-8025-e7c2f24b7bce))
+    (instances
+      (project "SparkFun_RTK_Facet_mosaic"
+        (path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/476b4701-5340-4853-910a-2af933cad777"
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
