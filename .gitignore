@@ -5,6 +5,11 @@ ehthumbs.db
 #KiCad Backup file directory
 *-backups
 fp-info-cache
+cammer.log
+cammer_config.json
+drill_report.rpt
+panelizer.log
+panel_config.json
 
 #Eagle Backup files
 *.s#?
