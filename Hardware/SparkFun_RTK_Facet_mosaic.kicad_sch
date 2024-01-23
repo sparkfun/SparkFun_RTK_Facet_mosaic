@@ -6,7 +6,7 @@
 
   (title_block
     (title "RTK Facet L-Band mosaic")
-    (date "2023-12-09")
+    (date "2024-01-23")
     (rev "v10")
     (comment 1 "Designed by: N.S. & P.C.")
   )
@@ -3921,10 +3921,10 @@
       )
     )
     (symbol "SparkFun-Jumper:SolderJumper_3_Bridged123" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "JP" (at -2.54 -2.54 0)
+      (property "Reference" "JP" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "~" (at 0 2.794 0)
+      (property "Value" "~" (at 3.81 1.27 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "SparkFun-Jumper:SMT-JUMPER_3_2-NC_TRACE_SILK" (at 0.254 -6.35 0)

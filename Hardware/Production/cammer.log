@@ -1,30 +1,30 @@
-2024-01-22 13:29:34,958 - cammer_logger - INFO - Running CAMmer
-2024-01-22 13:29:34,959 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
-2024-01-22 13:29:34,960 - cammer_logger - INFO - CAMMER START: 2024-01-22T13:29:34.960888
-2024-01-22 13:29:38,513 - cammer_logger - INFO - 
-START: 2024-01-22T13:29:34.960888
-Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GTL
-Renaming C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized-F_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GTL
-Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GL1
-Renaming C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized-In1_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GL1
-Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GL2
-Renaming C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized-In2_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GL2
-Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GBL
-Renaming C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized-B_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GBL
-Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GTP
-Renaming C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized-F_Paste.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GTP
-Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GBP
-Renaming C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized-B_Paste.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GBP
-Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GTO
-Renaming C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized-F_Silkscreen.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GTO
-Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GBO
-Renaming C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized-B_Silkscreen.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GBO
-Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GTS
-Renaming C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized-F_Mask.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GTS
-Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GBS
-Renaming C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized-B_Mask.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GBS
-Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GKO
-Renaming C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized-Edge_Cuts.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_RTK_Facet_mosaic/Hardware/Production/SparkFun_RTK_Facet_mosaic_panelized.GKO
+2024-01-23 10:39:50,979 - cammer_logger - INFO - Running CAMmer
+2024-01-23 10:39:50,979 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2024-01-23 10:39:50,980 - cammer_logger - INFO - CAMMER START: 2024-01-23T10:39:50.980793
+2024-01-23 10:39:54,144 - cammer_logger - INFO - 
+START: 2024-01-23T10:39:50.980793
+Deleting existing C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GTL
+Renaming C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized-F_Cu.gbr to C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GTL
+Deleting existing C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GL1
+Renaming C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized-In1_Cu.gbr to C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GL1
+Deleting existing C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GL2
+Renaming C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized-In2_Cu.gbr to C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GL2
+Deleting existing C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GBL
+Renaming C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized-B_Cu.gbr to C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GBL
+Deleting existing C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GTP
+Renaming C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized-F_Paste.gbr to C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GTP
+Deleting existing C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GBP
+Renaming C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized-B_Paste.gbr to C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GBP
+Deleting existing C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GTO
+Renaming C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized-F_Silkscreen.gbr to C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GTO
+Deleting existing C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GBO
+Renaming C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized-B_Silkscreen.gbr to C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GBO
+Deleting existing C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GTS
+Renaming C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized-F_Mask.gbr to C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GTS
+Deleting existing C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GBS
+Renaming C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized-B_Mask.gbr to C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GBS
+Deleting existing C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GKO
+Renaming C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized-Edge_Cuts.gbr to C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\SparkFun_RTK_Facet_mosaic_panelized.GKO
 Drill report: C:\Users\pc235\Documents\GitHub\SparkFun_RTK_Facet_mosaic\Hardware\Production\drill_report.rpt
 
-2024-01-22 13:29:38,547 - cammer_logger - INFO - CAMmer complete
+2024-01-23 10:39:54,193 - cammer_logger - INFO - CAMmer complete
