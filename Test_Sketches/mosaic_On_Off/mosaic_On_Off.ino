@@ -55,11 +55,13 @@ const int lbandRxPin = 4;
 const int lbandTxPin = 25;
 HardwareSerial lbandSerial(1);  // UART1: TX on 25, RX on 4. Connected to mosaic-X5 COM4
 
+const int serial2Tx = 14;
 const int muxA = 18; // 74HC4052 Multiplexer. Note: this will move to pin 2 on the next PCB rev
 const int muxB = 19; // 74HC4052 Multiplexer. Note: this will move to pin 12 on the next PCB rev
 const int SDA_1 = 21;
 const int SCL_1 = 22;
 const int mosaicOnOff = 23; // Drive low for >= 50ms to toggle from on to off and vice versa
+const int serial1Tx = 25;
 const int muxDAC = 26; // Analog out - via multiplexer
 const int peripheralPower = 27; // Pull high to enable power for the mosaic-X5, microSD, multiplexer and main board Qwiic connector
 const int powerControl = 32; // Default to input pull-up. Low indicates power button is being held. Change to output and drive low for power off
@@ -84,6 +86,9 @@ void setup()
   pinMode(fastOff, INPUT);
 
   pinMode(mosaicReady, INPUT);
+
+  pinMode(serial1Tx, INPUT_PULLUP); // Not needed. Pull up
+  pinMode(serial2Tx, INPUT_PULLUP); // Not needed. Pull up
 
   delay(1000);
 
