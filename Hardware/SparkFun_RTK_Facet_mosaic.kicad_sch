@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "RTK Facet L-Band mosaic")
-		(date "2024-01-23")
+		(date "2024-05-02")
 		(rev "v11")
 		(comment 1 "Designed by: N.S. & P.C.")
 	)
@@ -739,79 +739,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-			)
-		)
-		(symbol "SparkFun-Aesthetic:Ordering_Instructions"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "SparkFun-Aesthetic:Ordering_Instructions"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Ordering_Instructions_0_1"
-				(rectangle
-					(start -10.16 1.27)
-					(end 12.7 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Ordering_Instructions_1_1"
-				(text "Ordering Instructions"
-					(at 1.27 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 			)
@@ -5994,6 +5921,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 148.59) (xy 96.52 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f5075f-e39c-4ccd-8c53-e485c7d7832c")
+	)
+	(wire
+		(pts
 			(xy 34.29 62.23) (xy 34.29 64.77)
 		)
 		(stroke
@@ -7545,6 +7482,28 @@
 			)
 		)
 	)
+	(global_label "ESP18{slash}MEventB"
+		(shape input)
+		(at 96.52 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c7d3d21-a565-4dae-89bd-fcf79cc34c99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.2331 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP32{slash}PowerControl"
 		(shape input)
 		(at 96.52 168.91 0)
@@ -8161,70 +8120,6 @@
 			(project "SparkFun_RTK_Facet_mosaic"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Aesthetic:Ordering_Instructions")
-		(at 254 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "020f7747-7b64-4ffd-821a-21614ab869d8")
-		(property "Reference" "U7"
-			(at 254 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 254 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Aesthetic:Ordering_Instructions"
-			(at 254 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "SparkFun_RTK_Facet_mosaic"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "U7")
 					(unit 1)
 				)
 			)
