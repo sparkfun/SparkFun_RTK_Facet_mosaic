@@ -34,14 +34,6 @@
 import sys
 import os
 
-# Add byte to checksums sum1 and sum2
-def csum(byte, sum1, sum2):
-    sum1 = sum1 + byte
-    sum2 = sum2 + sum1
-    sum1 = sum1 & 0xFF
-    sum2 = sum2 & 0xFF
-    return sum1,sum2
-
 # Add byte to CRC-24Q (RTCM) checksum
 def crc24q(byte, sum):
     crc = sum # Seed is 0
@@ -111,9 +103,7 @@ ccitt_crc_table = [
 
 def ccitt_crc_update(crc, data):
     tbl_idx = ((crc >> 8) ^ data) & 0xFF
-    
     new_crc = (ccitt_crc_table[tbl_idx]) ^ (crc << 8)
-
     return new_crc & 0xFFFF
 
 print('SBF Integrity Checker')
