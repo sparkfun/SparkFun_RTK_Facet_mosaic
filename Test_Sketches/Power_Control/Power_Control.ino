@@ -66,6 +66,8 @@ const int lbandRxPin = 4;
 const int lbandTxPin = 25;
 HardwareSerial lbandSerial(1);  // UART1: TX on 25, RX on 4. Connected to mosaic-X5 COM4
 
+#define DEBUG_GNSS 1 // Change to 0 to disable GNSS serial debug
+
 const int muxA = 2; // 74HC4052 Multiplexer
 const int muxB = 12; // 74HC4052 Multiplexer
 const int SDA_1 = 21;
@@ -73,8 +75,8 @@ const int SCL_1 = 22;
 const int mosaicOnOff = 23; // Drive low for >= 50ms to toggle from on to off and vice versa
 const int muxDAC = 26; // Analog out - via multiplexer
 const int peripheralPower = 27; // Pull high to enable power for the mosaic-X5, microSD, multiplexer and main board Qwiic connector
-const int powerControl = 32; // Default to input pull-up. Low indicates power button is being held. Change to output and drive low for power off
-const int fastOff = 33; // Default to input. Change to output and drive low for fast power off
+const int powerControl = 32; // Default to input pull-up. Low indicates power button is being held
+const int fastOff = 33; // Default to input. Change to output and drive high for fast power off
 const int chargeLED = 34; // Connected to charger STAT1
 const int mosaicReady = 36; // High when module is ready
 const int muxADC = 39; // Analog in - via multiplexer
@@ -89,12 +91,20 @@ void flushRX(unsigned long timeout)
     unsigned long startTime = millis();
     while (millis() < (startTime + timeout))
       if (serialGNSS.available())
-        serialGNSS.read();
+      {
+        uint8_t c = serialGNSS.read();
+        if (DEBUG_GNSS)
+          Serial.write(c);
+      }
   }
   else
   {
     while (serialGNSS.available())
-      serialGNSS.read();
+    {
+      uint8_t c = serialGNSS.read();
+      if (DEBUG_GNSS)
+        Serial.write(c);
+    }
   }
 }
 
@@ -105,7 +115,11 @@ bool sendWithResponse(const char *message, const char *reply, unsigned long time
     return false;
 
   if (strlen(message) > 0)
+  {
     serialGNSS.write(message, strlen(message)); // Send the message
+    if (DEBUG_GNSS)
+      Serial.write(message, strlen(message));
+  }
 
   unsigned long startTime = millis();
   size_t replySeen = 0;
@@ -120,6 +134,8 @@ bool sendWithResponse(const char *message, const char *reply, unsigned long time
         replySeen++;
       else
         replySeen = 0; // Reset replySeen on an unexpected char
+      if (DEBUG_GNSS)
+        Serial.write(chr);
     }
 
     // If the reply has started to arrive at the timeout, allow extra time
@@ -146,16 +162,16 @@ bool sendWithResponse(const char *message, const char *reply, unsigned long time
 bool x5Standby(int reattempts) // Zero reattempts == one attempt
 {
   if (reattempts == 0)
-    return sendWithResponse("epwm, standby\n\r", "PowerMode");
+    return sendWithResponse("epwm,Standby\n\r", "PowerMode");
 
   int attempt = 0;
 
-  while (!sendWithResponse("epwm, standby\n\r", "PowerMode") && (attempt <= reattempts))
+  while (!sendWithResponse("epwm,Standby\n\r", "PowerMode") && (attempt <= reattempts))
   {
     if (attempt < reattempts) // Don't send the escape on the final try
     {
       Serial.println(F("No response from mosaic-X5. Retrying - with escape sequence..."));
-      sendWithResponse("SSSSSSSSSSSSSSSSSSSS\n\r", "COM2>"); // Send escape sequence
+      sendWithResponse("SSSSSSSSSSSSSSSSSSSS\n\r", "COM1>"); // Send escape sequence
     }
     attempt++;
   }
@@ -177,10 +193,7 @@ void powerDown(void)
   digitalWrite(peripheralPower, LOW);
   
   pinMode(fastOff, OUTPUT); // Power off the soft power switch
-  digitalWrite(fastOff, LOW);
-
-  pinMode(powerControl, OUTPUT);
-  digitalWrite(powerControl, LOW);
+  digitalWrite(fastOff, HIGH);
 
   while(1);
 }
@@ -238,7 +251,6 @@ void setup()
 
   pinMode(chargeLED, INPUT);
 
-  pinMode(serialTxPin, INPUT_PULLUP); // Not needed. Pull up
   pinMode(lbandTxPin, INPUT_PULLUP); // Not needed. Pull up
 
   pinMode(peripheralPower, OUTPUT); // Enable power for the X5
@@ -248,7 +260,7 @@ void setup()
 
   delay(350); // Wait for the X5 to start up
 
-  serialGNSS.begin(115200, SERIAL_8N1, serialRxPin, serialTxPin); // UART2 on pins 16/17.
+  serialGNSS.begin(115200, SERIAL_8N1, serialRxPin, serialTxPin); // UART2 on pins 13/14.
 
   delay(650);
 
@@ -302,7 +314,9 @@ void loop()
   Serial.print("%");
 
   Serial.print("  STAT1: ");
-  Serial.println(digitalRead(chargeLED)); // Print the state of STAT1 (Charge LED)
+  Serial.print(digitalRead(chargeLED)); // Print the state of STAT1 (Charge LED)
 
+  Serial.print("  mosaicReady: ");
+  Serial.println(digitalRead(mosaicReady)); // Print the state of mosaic Ready
   delay(250);
 }
