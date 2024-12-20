@@ -4,7 +4,13 @@
   This sketch will turn the board off via the Fast Off pin if Power Control is not low at start-up.
   It also monitors the Power Control pin and will turn the soft power circuit off if the button is
   held for 2 seconds.
-  It also displays information from the fuel gauge and the status of the charger STAT1 pin.
+  It also displays information from the fuel gauge and the status of the charger STAT pins.
+
+  To start the test, push and hold the power button for two seconds.
+  The code will power-off if the button isn't held for ~1s at startup.
+  The code will power-off when the button is held for shutDownButtonTime.
+  
+  Be careful when opening / closing a serial monitor / terminal emulator. This can cause a reset.
 
   Select ESP32 Wrover Module as the board
 
@@ -20,7 +26,7 @@
   D12 : Mux B
   D13 : Serial2 RX - Connected to mosaic-X5 COM1 TX
   D14 : Serial2 TX - Connected to mosaic-X5 COM1 RX
-  D15 : N/C
+  D15 : SD Card detect. Low indicates card is present. Also disables debug during boot
   D16 : N/A
   D17 : N/A
   D18 : GNSS Event - Connected to mosaic-X5 EventB
@@ -55,6 +61,8 @@ TwoWire I2C_1 = TwoWire(1);
 
 SFE_MAX1704X lipo(MAX1704X_MAX17048); // Create a MAX17048
 
+bool powerDownRequested = false;
+
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // Hardware specifics for the SparkFun RTK mosaic
 
@@ -70,6 +78,8 @@ HardwareSerial lbandSerial(1);  // UART1: TX on 25, RX on 4. Connected to mosaic
 
 const int muxA = 2; // 74HC4052 Multiplexer
 const int muxB = 12; // 74HC4052 Multiplexer
+const int sdDetect = 15; // microSD card detect. Low = card present
+const int chargeSTAT2 = 19; // Connected to charger STAT2
 const int SDA_1 = 21;
 const int SCL_1 = 22;
 const int mosaicOnOff = 23; // Drive low for >= 50ms to toggle from on to off and vice versa
@@ -77,7 +87,8 @@ const int muxDAC = 26; // Analog out - via multiplexer
 const int peripheralPower = 27; // Pull high to enable power for the mosaic-X5, microSD, multiplexer and main board Qwiic connector
 const int powerControl = 32; // Default to input pull-up. Low indicates power button is being held
 const int fastOff = 33; // Default to input. Change to output and drive high for fast power off
-const int chargeLED = 34; // Connected to charger STAT1
+const int chargeSTAT1 = 34; // Connected to charger STAT1
+const int boardDetect = 35; // Board detect / ID voltage
 const int mosaicReady = 36; // High when module is ready
 const int muxADC = 39; // Analog in - via multiplexer
 
@@ -224,12 +235,22 @@ void ButtonCheckTask(void *e)
     if (powerBtn != nullptr && powerBtn->pressedFor(shutDownButtonTime))
     {
       // Power down
-      powerDown();
+      powerDownRequested = true;
     }
 
     delay(1); // Poor man's way of feeding WDT. Required to prevent Priority 1 tasks from causing WDT reset
     taskYIELD();
   }
+}
+
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+// pin_chargerLED is analog-only and is connected via a blocking diode. LOW will not be 0V
+bool readAnalogPinAsDigital(int pin)
+{
+    if (pin >= 34) // If the pin is analog-only
+        return (analogReadMilliVolts(pin) > (3300 / 2));
+
+    return digitalRead(pin);
 }
 
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -249,7 +270,10 @@ void setup()
 
   pinMode(mosaicReady, INPUT);
 
-  pinMode(chargeLED, INPUT);
+  pinMode(sdDetect, INPUT_PULLUP);
+
+  pinMode(chargeSTAT1, INPUT);
+  pinMode(chargeSTAT2, INPUT);
 
   pinMode(lbandTxPin, INPUT_PULLUP); // Not needed. Pull up
 
@@ -299,6 +323,9 @@ void setup()
 
 void loop()
 {
+  if (powerDownRequested)
+    powerDown();
+    
   // lipo.getVoltage() returns a voltage value (e.g. 3.93)
   double voltage = lipo.getVoltage();
   // lipo.getSOC() returns the estimated state of charge (e.g. 79%)
@@ -309,14 +336,28 @@ void loop()
   Serial.print(voltage);  // Print the battery voltage
   Serial.print("V");
 
-  Serial.print("  SOC: ");
+  Serial.print(" | SOC: ");
   Serial.print(soc); // Print the battery state of charge
   Serial.print("%");
 
-  Serial.print("  STAT1: ");
-  Serial.print(digitalRead(chargeLED)); // Print the state of STAT1 (Charge LED)
+  Serial.print(" | Charger: ");
+  //   State           | STAT1 | STAT2
+  // 3 Standby / Fault | HIGH  | HIGH
+  // 2 Charging        | LOW   | HIGH
+  // 1 Charge Complete | HIGH  | LOW
+  // 0 Test mode       | LOW   | LOW
+  uint8_t combinedStat = (((uint8_t)readAnalogPinAsDigital(chargeSTAT2)) << 1) |
+                         ((uint8_t)readAnalogPinAsDigital(chargeSTAT1));
+  if (combinedStat == 3)
+      Serial.print("standby / fault");
+  else if (combinedStat == 2)
+      Serial.print("battery is charging");
+  else if (combinedStat == 1)
+      Serial.print("battery charging is complete");
+  else // if (combinedStat == 0)
+      Serial.print("test mode");
 
-  Serial.print("  mosaicReady: ");
+  Serial.print(" | mosaicReady: ");
   Serial.println(digitalRead(mosaicReady)); // Print the state of mosaic Ready
   delay(250);
 }

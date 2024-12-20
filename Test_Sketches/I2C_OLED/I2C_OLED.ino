@@ -21,7 +21,7 @@
   D12 : Mux B
   D13 : Serial2 RX - Connected to mosaic-X5 COM1 TX
   D14 : Serial2 TX - Connected to mosaic-X5 COM1 RX
-  D15 : N/C
+  D15 : SD Card detect. Low indicates card is present. Also disables debug during boot
   D16 : N/A
   D17 : N/A
   D18 : GNSS Event - Connected to mosaic-X5 EventB
@@ -61,6 +61,8 @@ HardwareSerial lbandSerial(1);  // UART1: TX on 25, RX on 4. Connected to mosaic
 
 const int muxA = 2; // 74HC4052 Multiplexer
 const int muxB = 12; // 74HC4052 Multiplexer
+const int sdDetect = 15; // microSD card detect. Low = card present
+const int chargeSTAT2 = 19; // Connected to charger STAT2
 const int SDA_1 = 21;
 const int SCL_1 = 22;
 const int mosaicOnOff = 23; // Drive low for >= 50ms to toggle from on to off and vice versa
@@ -68,7 +70,8 @@ const int muxDAC = 26; // Analog out - via multiplexer
 const int peripheralPower = 27; // Pull high to enable power for the mosaic-X5, microSD, multiplexer and main board Qwiic connector
 const int powerControl = 32; // Default to input pull-up. Low indicates power button is being held
 const int fastOff = 33; // Default to input. Change to output and drive high for fast power off
-const int chargeLED = 34; // Connected to charger STAT1
+const int chargeSTAT1 = 34; // Connected to charger STAT1
+const int boardDetect = 35; // Board detect / ID voltage
 const int mosaicReady = 36; // High when module is ready
 const int muxADC = 39; // Analog in - via multiplexer
 
