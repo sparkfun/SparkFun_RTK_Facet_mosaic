@@ -89,7 +89,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       primary: grey
       accent: red
-      scheme: default 
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to system preference
@@ -101,7 +101,7 @@ theme:
       scheme: slate
       toggle:
         icon: material/weather-night
-        name: Switch to light mode    
+        name: Switch to light mode
 
 
   # Configures icons
@@ -111,7 +111,7 @@ theme:
 
     # Sets repo icon to GitHub icon
     repo: fontawesome/brands/github
-    
+
     # Sets icons for "view source" (commented out) and "edit this page" buttons
     edit: material/file-document-edit-outline
     # view: material/file-code-outline
@@ -169,6 +169,8 @@ plugins:
       # Provide domains for assets that are retrieved from external sites
       assets_include:
         - https://docs.sparkfun.com/*
+
+      # assets_fetch_dir: ../docs/external/
 
       # External links open in a new tab
       links_attr_map:
@@ -230,6 +232,8 @@ markdown_extensions:
   # Adds support for syntax highlighting of code blocks
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
 
   # Adds support for syntax highlighting of inline code blocks
   - pymdownx.inlinehilite
@@ -259,7 +263,7 @@ markdown_extensions:
 
   # Allows the use of tabs in the document
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
@@ -344,6 +348,8 @@ extra:
       link: https://www.facebook.com/SparkFun
     - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/sparkfun
+    - icon: simple/discourse
+      link: https://community.sparkfun.com/
 
   # Configures Google Analytics
   analytics:
@@ -360,7 +366,7 @@ extra:
       We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.
     actions:
       - accept
-      - manage 
+      - manage
       - reject
 
 
@@ -393,14 +399,16 @@ extra_javascript:
 # Excludes README.md files from being built as webpages
 exclude_docs: |
   README.md
+  glossary-sparkfun.md
+  glossary-local.md
 
-# Pages that are built, but not in the navigation tabs
+# Pages that are built, but not in the navigation menu
 not_in_nav: |
   index.md
   print_view.md
   favicon.ico
 
-# Webpage navigation tabs
+# Webpage navigation menu
 nav:
   - Product Manual:
     - Introduction: introduction.md
