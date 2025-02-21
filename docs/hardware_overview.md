@@ -26,7 +26,7 @@ The design of the SparkPNT RTK Facet mosaic L-Band is similar to previous genera
 	- :material-cube-outline: [STEP Files](./assets/3d_model/step_files.zip)
 		- [Connector Board](./assets/3d_model/connector_board.step)
 		- [Display Board](./assets/3d_model/display_board.step)
-		- [Primary Board](./assets/3d_model/primary_board.step)
+		- [Main Board](./assets/3d_model/main_board.step)
 	<!-- - :material-rotate-3d: [STEP File](./assets/3d_model/cad_model.zip) -->
 	<!-- - :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf) -->
 
@@ -45,9 +45,9 @@ The design of the SparkPNT RTK Facet mosaic L-Band is similar to previous genera
 		</model-viewer>
 		</center>
 
-	=== "Primary Board"
+	=== "Main Board"
 		<center>
-		<model-viewer src="../assets/3d_model/primary_board.glb" poster="../assets/3d_model/poster-primary_board.jpeg" camera-controls tone-mapping="neutral" poster="poster.jpeg" camera-controls tone-mapping="neutral" poster="poster.jpeg" shadow-intensity="1.35" camera-orbit="0deg 90deg 110m" field-of-view="25.11deg" environment-image="legacy" exposure="0.6" shadow-softness="0.8" style="width: 100%; height: 450px;">
+		<model-viewer src="../assets/3d_model/main_board.glb" poster="../assets/3d_model/poster-main_board.jpeg" camera-controls tone-mapping="neutral" poster="poster.jpeg" camera-controls tone-mapping="neutral" poster="poster.jpeg" shadow-intensity="1.35" camera-orbit="0deg 90deg 110m" field-of-view="25.11deg" environment-image="legacy" exposure="0.6" shadow-softness="0.8" style="width: 100%; height: 450px;">
 		</model-viewer>
 		</center>
 

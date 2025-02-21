@@ -6,7 +6,6 @@ icon: material/book-open-page-variant
 
 - :sfe: [Product Page](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html)
 - :material-folder-cog: Design Files:
-	- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
 	<!-- - :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf) -->
 	- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files.zip)
 	- :material-cube-outline: [STEP Files](./assets/3d_model/step_files.zip)
