@@ -1,6 +1,6 @@
 # Documentation page information
-site_name: Product Manual&#58; SparkPNT RTK Facet mosaic L-Band
-site_description: A product manual for the RTK Facet mosaic L-Band from SparkPNT
+site_name: SparkPNT RTK Facet mosaic L-Band Hookup Guide
+site_description: A hookup guide for the RTK Facet mosaic L-Band from SparkPNT
 site_url: https://sparkfun.github.io/SparkFun_RTK_Facet_mosaic
 site_author: SparkPNT
 
@@ -410,7 +410,7 @@ not_in_nav: |
 
 # Webpage navigation menu
 nav:
-  - Product Manual:
+  - Hookup Guide:
     - Introduction: introduction.md
     - Hardware Information:
       - Hardware Overview: hardware_overview.md
