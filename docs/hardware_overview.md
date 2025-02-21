@@ -88,14 +88,14 @@ The design of the SparkPNT RTK Facet mosaic L-Band is similar to previous genera
 ??? abstract "Kit Parts"
 	<div class="grid cards" markdown>
 
-	-   <a href="https://www.sparkfun.com/products/27115">
+	-   <a href="https://www.sparkfun.com/sparkpnt-rtk-facet-ruggedized-hardcase.html">
 		<figure markdown>
-		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/8/2/8/9/26994-RTK-Facet-V2-Carrying-Case-Feature.jpg)
+		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/8/2/8/9/27115-PNT-Carrying-Case-Internal-Feature.jpg)
 		</figure>
 
 		---
 
-		**RTK Facet Kit Carrying Case - Hard Sided**<br>
+		**SparkPNT RTK Facet Ruggedized Hardcase**<br>
 		PRT-27115</a>
 
 	-   <a href="https://www.sparkfun.com/antenna-thread-adapter-1-4in-to-5-8in.html">
