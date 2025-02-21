@@ -38,4 +38,4 @@ Let's provide some recognition to the contributors for this project!
 
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=sparkfun/SparkFun_RTK_Facet_mosaic)
 <br>
-[![Pull Requests Badge](https://img.shields.io/github/contributors/sparkfun/SparkFun_RTK_Facet_mosaic.svg)](https://github.com/sparkfun/SparkFun_RTK_Facet_mosaic/pulls "Pull Requests")
+[![Contributors Badge](https://img.shields.io/github/contributors/sparkfun/SparkFun_RTK_Facet_mosaic.svg)](https://github.com/sparkfun/SparkFun_RTK_Facet_mosaic/graphs/contributors)
