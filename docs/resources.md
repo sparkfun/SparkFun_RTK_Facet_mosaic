@@ -7,11 +7,46 @@ icon: material/book-open-page-variant
 - :sfe: [Product Page](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html)
 - :material-folder-cog: Design Files:
 	<!-- - :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf) -->
-	- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files.zip)
-	- :material-cube-outline: [STEP Files](./assets/3d_model/step_files.zip)
+
+	<div class="grid cards" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
+
+	- All Files
+
+		---
+
+		- :material-folder-zip: [Schematics](./assets/board_files/schematics.zip)
+		- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files.zip)
+		- :material-folder-zip: [STEP Files](./assets/3d_model/step_files.zip)
+
+	- Connector Board
+
+		---
+
+		- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic-connector_board.pdf)
+		- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files-connector_board.zip)
+		- :material-cube-outline: [STEP File](./assets/3d_model/connector_board.step)
+
+	- Display Board
+
+		---
+
+		- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic-display_board.pdf)
+		- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files-display_board.zip)
+		- :material-cube-outline: [STEP File](./assets/3d_model/display_board.step)
+
+	- Main Board
+
+		---
+
+		- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic-main_board.pdf)
+		- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files-main_board.zip)
+		- :material-cube-outline: [STEP File](./assets/3d_model/main_board.step)
+
+	</div>
+
 - Component Documentation
 
-	<div class="grid cards" markdown>
+	<div class="grid cards" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
 
 	- :septentrio: mosaic-X5
 

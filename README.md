@@ -67,11 +67,11 @@ Repository Contents
 - **[/docs](/docs/)** - Online documentation files
 	- [assets](/docs/assets/) - Assets files
 		- [3d_model](/docs/assets/3d_model/) - Files for the 3D models
-			- [3D CAD Model](/docs/assets/3d_model/cad_model.step) (.step)
+			- [3D CAD Models](/docs/assets/3d_model/step_files.zip) (.step)
 		- [board_files](/docs/assets/board_files/) - Files for the product design
 			- [KiCad Design Files](/docs/assets/board_files/kicad_files.zip) (.zip)
-			- [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
-			- [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
+			- [Schematics](/docs/assets/board_files/schematics.zip) (.pdf)
+			<!-- - [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf) -->
 		- [component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
 		- [img/hookup_guide/](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation
 - **[/Enclosure](/Enclosure/)** - CAD model for an enclosure

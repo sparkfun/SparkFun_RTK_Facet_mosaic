@@ -21,12 +21,18 @@ The design of the SparkPNT RTK Facet mosaic L-Band is similar to previous genera
 	---
 
 	- :kicad-primary:{ .enlarge-logo }
-		- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
+		- :material-folder-zip: [Schematics](./assets/board_files/schematics.zip)
+			- :fontawesome-solid-file-pdf: [Connector Board](./assets/board_files/schematic-connector_board.pdf)
+			- :fontawesome-solid-file-pdf: [Display Board](./assets/board_files/schematic-display_board.pdf)
+			- :fontawesome-solid-file-pdf: [Main Board](./assets/board_files/schematic-main_board.pdf)
 		- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files.zip)
-	- :material-cube-outline: [STEP Files](./assets/3d_model/step_files.zip)
-		- [Connector Board](./assets/3d_model/connector_board.step)
-		- [Display Board](./assets/3d_model/display_board.step)
-		- [Main Board](./assets/3d_model/main_board.step)
+			- :material-folder-zip: [Connector Board](./assets/board_files/kicad_files-connector_board.zip)
+			- :material-folder-zip: [Display Board](./assets/board_files/kicad_files-display_board.zip)
+			- :material-folder-zip: [Main Board](./assets/board_files/kicad_files-main_board.zip)
+	- :material-folder-zip: [STEP Files](./assets/3d_model/step_files.zip)
+		- :material-cube-outline: [Connector Board](./assets/3d_model/connector_board.step)
+		- :material-cube-outline: [Display Board](./assets/3d_model/display_board.step)
+		- :material-cube-outline: [Main Board](./assets/3d_model/main_board.step)
 	<!-- - :material-rotate-3d: [STEP File](./assets/3d_model/cad_model.zip) -->
 	<!-- - :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf) -->
 
@@ -52,8 +58,8 @@ The design of the SparkPNT RTK Facet mosaic L-Band is similar to previous genera
 		</center>
 
 
-	??? tip "Need Board Dimensions?"
-		For more information about the board's dimensions, users can download the [KiCad files](./assets/board_files/kicad_files.zip) for this board. These files can be opened in KiCad and additional measurements can be made with the measuring tool.
+	??? tip "Need Dimensions?"
+		For the board dimensions, users can download the [KiCad files](./assets/board_files/kicad_files.zip) for these board. These files can be opened in KiCad and measurements can be made with the measuring tool.
 
 		!!! info ":octicons-download-16:{ .heart } KiCad - Free Download!"
 			KiCad is free, open-source [CAD]("computer-aided design") program for electronics. Click on the button below to download their software. *(\*Users can find out more information about KiCad from their [website](https://www.kicad.org/).)*
