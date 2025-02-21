@@ -1,11 +1,11 @@
 SparkPNT RTK Facet mosaic L-Band
 ========================================
 
-[![SparkPNT RTK Facet mosaic L-Band](https://cdn.sparkfun.com/r/600-600/assets/parts/2/5/1/9/5/24903-RTK-Facet-Mosaic-L-Band-Feature.jpg)](https://www.sparkfun.com/products/24903)
+[![SparkPNT RTK Facet mosaic L-Band](https://cdn.sparkfun.com/r/600-600/assets/parts/2/5/1/9/5/24903-RTK-Facet-Mosaic-L-Band-Feature.jpg)](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html)
 
-[*SparkPNT RTK Facet mosaic L-Band (GPS-24903)*](https://www.sparkfun.com/products/24903)
+[*SparkPNT RTK Facet mosaic L-Band (GPS-24903)*](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html)
 
-Designed and manufactured in Boulder, Colorado, USA, and utilizing the multi-band mosaic-X5 from Septentrio, the [SparkPNT RTK Facet mosaic L-Band](https://www.sparkfun.com/products/24903) is *the* top of the line receiver for high precision geolocation and surveying needs. For basic users, it’s incredibly easy to get up and running; for advanced users, the RTK Facet mosaic L-Band is a flexible and powerful tool. With just the press of a button, the RTK Facet mosaic L-Band is the fastest way to take centimeter-grade measurements. With built-in corrections, 10mm Real Time Kinematic fixes are less than a minute away. By connecting your phone to the RTK Facet mosaic L-Band over Bluetooth®, your phone or tablet can receive the NMEA output and work with most GIS software programs. This is exactly how $10,000 surveying devices have been operating for the past decade - we just made it faster, more precise, and a lot more economical.
+Designed and manufactured in Boulder, Colorado, USA, and utilizing the multi-band mosaic-X5 from Septentrio, the [SparkPNT RTK Facet mosaic L-Band](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html) is *the* top of the line receiver for high precision geolocation and surveying needs. For basic users, it’s incredibly easy to get up and running; for advanced users, the RTK Facet mosaic L-Band is a flexible and powerful tool. With just the press of a button, the RTK Facet mosaic L-Band is the fastest way to take centimeter-grade measurements. With built-in corrections, 10mm Real Time Kinematic fixes are less than a minute away. By connecting your phone to the RTK Facet mosaic L-Band over Bluetooth®, your phone or tablet can receive the NMEA output and work with most GIS software programs. This is exactly how $10,000 surveying devices have been operating for the past decade - we just made it faster, more precise, and a lot more economical.
 
 The RTK Facet mosaic L-Band works with common GIS software for Android and iOS including SW Maps [Android](https://sparkfun.github.io/SparkFun_RTK_Firmware/gis_software/#sw-maps) / [iOS](https://apps.apple.com/us/app/sw-maps/id6444248083), [Field Genius](https://www.microsurvey.com/products/fieldgenius-for-android/), [SurvPC](https://www.carlsonsw.com/product/carlson-survce), [Survey Master](https://docs.sparkfun.com/SparkFun_RTK_Firmware/gis_software/#survey-master), [Vespucci](https://play.google.com/store/apps/details?id=de.blau.android&hl=en_US&gl=US), [QGIS](https://qgis.org/), [QField](https://docs.qfield.org/get-started/), and any GIS software that supports NMEA over Bluetooth.
 
@@ -36,11 +36,11 @@ The RTK Facet mosaic L-Band is an open source hardware product meaning you can f
 The SparkPNT RTK Facet mosaic L-Band kit includes everything you need: the enclosed device, thread adapter, charger, data cables, and carrying case. It does **NOT** include a [surveying pole](https://www.sparkfun.com/telescopic-surveying-pole.html) *(any additional items will need to be purchased separately)*.
 
 > [!NOTE]
-> PointPerfect L-Band correction service for the SparkPNT RTK Facet mosaic L-Band is currently only available in the USA's 48 contiguous states and the southern portion of Canada shown in the coverage map below. More information on PointPerfect can be found [here](https://developer.thingstream.io/guides/location-services/pointperfect-service-description).
+> PointPerfect L-Band correction service for the SparkPNT RTK Facet mosaic L-Band is currently only available in the USA's 48 continuous states and the southern portion of Canada shown in the coverage map below. More information on PointPerfect can be found [here](https://developer.thingstream.io/guides/location-services/pointperfect-service-description).
 >
 > ![](https://cdn.sparkfun.com/assets/e/c/0/c/4/PointPerfect_Coverage-2025-Cropped-Small.png)
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > The SparkPNT RTK Facet mosaic L-Band is not designed for permanent outdoor mounting. Please use the [RTK mosaic-X5](https://www.sparkfun.com/sparkfun-rtk-mosaic-x5.html) or the [RTK Reference Station](https://www.sparkfun.com/products/22429) that is located inside or protected from the elements. Or, for a DIY solution, the [ESP32](https://www.sparkfun.com/sparkfun-thing-plus-esp32-wroom-micro-b.html) attached to our [ZED-F9P breakout](https://www.sparkfun.com/sparkfun-gps-rtk-sma-breakout-zed-f9p-qwiic.html) is a great way to go. See our [How to Build a DIY GNSS Reference Station](https://learn.sparkfun.com/tutorials/how-to-build-a-diy-gnss-reference-station) tutorial for more information.
 
 > [!NOTE]
@@ -78,13 +78,16 @@ Repository Contents
 Product Variants
 ----------------
 
-- [GPS-24903](https://www.sparkfun.com/products/24903) - v1.0, Initial Release
+- [GPS-24903](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html) - v1.0, Initial Release
 
 - Facet Product Line
+	- [GPS-26995](https://www.sparkfun.com/products/26995) - SparkPNT RTK Facet L-Band v2
+	- [GPS-26994](https://www.sparkfun.com/products/26994) - SparkPNT RTK Facet v2
 	- [GPS-20000](https://www.sparkfun.com/sparkfun-rtk-facet-l-band.html) - SparkFun RTK Facet L-Band
 	- [GPS-19984](https://www.sparkfun.com/sparkfun-rtk-facet.html) - SparkFun RTK Facet
 	- [GPS-19029](https://www.sparkfun.com/products/19029) - SparkFun RTK Facet *(Initial Release)*
 - mosaic-`XX` GNSS Module
+	- [GPS-26289](https://www.sparkfun.com/products/26289) - SparkPNT GNSS Disciplined Oscillator
 	- [GPS-23748](https://www.sparkfun.com/sparkfun-rtk-mosaic-x5.html) - SparkFun RTK mosaic-X5
 	- [GPS-23088](https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html) - SparkFun Triband GNSS RTK Breakout - mosaic-X5
 
