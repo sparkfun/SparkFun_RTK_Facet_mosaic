@@ -105,4 +105,4 @@ If you have any questions or concerns about licensing, please contact technical 
 
 Distributed as-is; no warranty is given.
 
-- Your friends at SparkFun.
+- Your friends at SparkPNT.
