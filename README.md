@@ -1,7 +1,7 @@
 SparkPNT RTK Facet mosaic L-Band
 ========================================
 
-[![SparkPNT RTK Facet mosaic L-Band](https://cdn.sparkfun.com/r/600-600/assets/parts/2/5/1/9/5/24903-RTK-Facet-Mosaic-L-Band-Feature.jpg)](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html)
+[![SparkPNT RTK Facet mosaic L-Band](https://cdn.sparkfun.com/r/600-600/assets/parts/2/5/1/9/5/24903-RTK-Facet-Mosaic-L-Band-Feature-2.jpg)](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html)
 
 [*SparkPNT RTK Facet mosaic L-Band (GPS-24903)*](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html)
 

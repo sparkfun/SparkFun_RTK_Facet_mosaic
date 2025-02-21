@@ -160,7 +160,7 @@ The design of the SparkPNT RTK Facet mosaic L-Band is similar to previous genera
 ## Power/Setup Button
 
 <figure markdown>
-![RTK Facet mosaic Front Face](https://cdn.sparkfun.com//assets/parts/1/9/7/4/6/20000-SparkFun_RTK_Facet_L-Band-01.jpg)
+[![RTK Facet mosaic Front Face](./assets/img/hookup_guide/button-external_power-setup.png){ width="500" }](./assets/img/hookup_guide/button-external_power-setup.png "Click to enlarge")
 <figcaption markdown>
 </figcaption>
 The ++"POWER/SETUP"++ button on the front of the RTK Facet mosaic.
@@ -214,7 +214,7 @@ The RTK Facet mosaic has a large, built-in 6000mAh lithium polymer battery that 
 #### Charge LED
 
 <figure markdown>
-[![RTK Facet mosaic Charge LED](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Front_Face_-_Charge_LED.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Front_Face_-_Charge_LED.jpg)
+[![RTK Facet mosaic Charge LED](./assets/img/hookup_guide/LED-charge.png){ width="500" }](./assets/img/hookup_guide/LED-charge.png "Click to enlarge")
 <figcaption markdown>
 Charge LED indicator on the RTK Facet mosaic.
 </figcaption>
@@ -251,7 +251,7 @@ At *Power On* the device will enter **Rover** or **Base** mode; whichever state 
 ## Connectors
 
 <figure markdown>
-[![RTK Facet mosaic Connectors](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Ports.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Ports.jpg)
+[![RTK Facet mosaic Connectors](./assets/img/hookup_guide/connections.png){ width="500" }](./assets/img/hookup_guide/connections.png "Click to enlarge")
 <figcaption markdown>
 The SparkFun RTK Facet mosaic connectors shown with the dust cover removed.
 </figcaption>
@@ -262,7 +262,7 @@ There are a variety of connectors protected under a dust flap.
 ### USB
 
 <figure markdown>
-[![RTK Facet mosaic USB-C Connector](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Ports_-_USB.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Ports_-_USB.jpg)
+[![RTK Facet mosaic USB-C Connector](./assets/img/hookup_guide/connections-usb.png){ width="500" }](./assets/img/hookup_guide/connections-usb.png "Click to enlarge")
 <figcaption markdown>
 </figcaption>
 </figure>
@@ -284,7 +284,7 @@ There is a USB hub built into the RTK Facet mosaic. When you attach the device t
 In the image above, the `USB-SERIAL CH340` is the ESP32 and the `USB Serial Device` is the mosaic-X5.
 
 ??? tip "Tip - USB Drivers"
-	### CH340 UART Converter
+	#### CH340 UART Converter
 	The CH340 serial-to-USB converter allows users to interface with the ESP32-WROVER-E module through the USB-C connector. To utilize the CH340, users may need to install a USB driver, which can be downloaded from the [manufacturer website](https://www.wch-ic.com/search?q=CH342&t=downloads).
 
 	<div class="grid cards" align="center" markdown>
@@ -312,8 +312,10 @@ In the image above, the `USB-SERIAL CH340` is the ESP32 and the `USB Serial Devi
 		</center>
 
 
+	---
 
-	### mosaic-X5
+
+	#### mosaic-X5
 	On Windows computers, a USB driver is required to recognize and interact with the mosaic-X5 module through the USB interface.
 
 
@@ -363,7 +365,7 @@ Configuring the RTK Facet mosaic can be done over the *USB-Serial CH340* COM por
 ### Radio
 
 <figure markdown>
-[![RTK Facet mosaic Radio Connector](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Ports_-_Radio.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Ports_-_Radio.jpg)
+[![RTK Facet mosaic Radio Connector](./assets/img/hookup_guide/connections-data.png){ width="500" }](./assets/img/hookup_guide/connections-data.png "Click to enlarge")
 <figcaption markdown>
 </figcaption>
 </figure>
@@ -382,7 +384,7 @@ This 4-pin JST connector can be used to allow RTCM correction data to flow into 
 ### Data
 
 <figure markdown>
-[![RTK Facet mosaic Data Port](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Ports_-_Data.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Ports_-_Data.jpg)
+[![RTK Facet mosaic Data Port](./assets/img/hookup_guide/connections-data.png){ width="500" }](./assets/img/hookup_guide/connections-data.png "Click to enlarge")
 <figcaption markdown>
 </figcaption>
 </figure>
@@ -412,8 +414,7 @@ Most applications do not need to utilize this port and will send the NMEA positi
 ### microSD
 
 <figure markdown>
-[![RTK Facet mosaic microSD connector](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Ports_-_microSD.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Ports_-_microSD.jpg)
-<figcaption markdown>
+[![RTK Facet mosaic microSD connector](./assets/img/hookup_guide/connections-micro_sd.png){ width="500" }](./assets/img/hookup_guide/connections-micro_sd.png "Click to enlarge")
 </figcaption>
 </figure>
 
@@ -499,7 +500,7 @@ The following messages are supported for logging:
 ### Qwiic
 
 <figure markdown>
-[![RTK Facet mosaic Qwiic connector](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Ports_-_Qwiic.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Ports_-_Qwiic.jpg)
+[![RTK Facet mosaic Qwiic connector](./assets/img/hookup_guide/connections-qwiic.png){ width="500" }](./assets/img/hookup_guide/connections-qwiic.png "Click to enlarge")
 <figcaption markdown>
 </figcaption>
 </figure>
@@ -511,7 +512,7 @@ This 4-pin [Qwiic connector](https://www.sparkfun.com/qwiic) exposes the I^2^C b
 ### Antenna
 
 <figure markdown>
-![Internal RTK Facet mosaic Antenna](https://cdn.sparkfun.com//assets/parts/1/9/7/4/6/20000-SparkFun_RTK_Facet_L-Band-02.jpg)
+[![Internal RTK Facet mosaic Antenna](./assets/img/hookup_guide/antenna.png){ width="500" }](./assets/img/hookup_guide/antenna.png "Click to enlarge")
 <figcaption markdown>
 </figcaption>
 </figure>
@@ -519,7 +520,7 @@ This 4-pin [Qwiic connector](https://www.sparkfun.com/qwiic) exposes the I^2^C b
 It's built in! Housed under the dome of the RTK Facet mosaic is a surveyor grade L1/L2/L-Band antenna. This antenna is a unique combination of elements designed to receive the GNSS signals (L1/L2) alongside the 1.55GHz PointPerfect corrections.
 
 <figure markdown>
-[![SparkFun RTK Facet mosaic Antenna Reference Point](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_ARP.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_ARP.jpg)
+[![SparkFun RTK Facet mosaic Antenna Reference Point](https://cdn.sparkfun.com/r/500-500/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_ARP.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_ARP.jpg)
 <figcaption markdown>
 SparkFun RTK Facet mosaic Antenna Reference Points
 </figcaption>
@@ -553,7 +554,7 @@ To quickly view the state of charge, turn on the unit. The battery icon will ind
 ## Display
 
 <figure markdown>
-![RTK Facet mosaic Front Face](https://cdn.sparkfun.com//assets/parts/1/9/7/4/6/20000-SparkFun_RTK_Facet_L-Band-01.jpg)
+[![RTK Facet mosaic Front Face](./assets/img/hookup_guide/display.png){ width="500" }](./assets/img/hookup_guide/display.png "Click to enlarge")
 <figcaption markdown>
 </figcaption>
 The display on the front of the RTK Facet mosaic.

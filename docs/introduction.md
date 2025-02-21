@@ -12,7 +12,7 @@ icon: material/book-open-page-variant
 	---
 
 	<figure markdown>
-	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/5/1/9/5/24903-RTK-Facet-Mosaic-L-Band-Feature.jpg)
+	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/5/1/9/5/24903-RTK-Facet-Mosaic-L-Band-Feature-2.jpg)
 	</figure></a>
 
 
@@ -64,13 +64,21 @@ icon: material/book-open-page-variant
 
 </div>
 
+
 !!! note "PointPerfect Coverage"
 	PointPerfect L-Band correction service for the SparkPNT RTK Facet mosaic L-Band is currently only available in the USA's 48 continuous states and the southern portion of Canada shown in the coverage map below. More information on PointPerfect can be found [here](https://developer.thingstream.io/guides/location-services/pointperfect-service-description).
 
-	![](https://cdn.sparkfun.com/assets/e/c/0/c/4/PointPerfect_Coverage-2025-Cropped-Small.png)
+	<figure markdown>
+	[![Coverage Map](https://cdn.sparkfun.com/assets/e/c/0/c/4/PointPerfect_Coverage-2025-Cropped-Small.png)](https://cdn.sparkfun.com/assets/e/c/0/c/4/PointPerfect_Coverage-2025-Cropped-Small.png "Click to enlarge")
+	<figcaption markdown>
+	Coverage map for the PointPerfect service.
+	</figcaption>
+	</figure>
+
 
 !!! failure "Permanent Installation"
 	The SparkPNT RTK Facet mosaic L-Band is not designed for permanent outdoor mounting. Please use the [RTK mosaic-X5](https://www.sparkfun.com/sparkfun-rtk-mosaic-x5.html) or the [RTK Reference Station](https://www.sparkfun.com/products/22429) that is located inside or protected from the elements. Or, for a DIY solution, the [ESP32](https://www.sparkfun.com/sparkfun-thing-plus-esp32-wroom-micro-b.html) attached to our [ZED-F9P breakout](https://www.sparkfun.com/sparkfun-gps-rtk-sma-breakout-zed-f9p-qwiic.html) is a great way to go. See our [How to Build a DIY GNSS Reference Station](https://learn.sparkfun.com/tutorials/how-to-build-a-diy-gnss-reference-station) tutorial for more information.
+
 
 !!! note "Completely Open-Source"
 	- The [RTK Everywhere firmware](https://github.com/sparkfun/SparkFun_RTK_Everywhere_Firmware) is open-source, so users can obtain, check, and even modify the device's functionality. This allows for easier feature expansion, bug maintenance, and longer device longevity.
@@ -95,7 +103,7 @@ To get started, users will need a few items. Some users may already have a few o
 
 -   <a href="https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html">
 	<figure markdown>
-	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/5/1/9/5/24903-RTK-Facet-Mosaic-L-Band-Feature.jpg)
+	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/5/1/9/5/24903-RTK-Facet-Mosaic-L-Band-Feature-2.jpg)
 	</figure>
 
 	---
@@ -293,7 +301,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 
 -   <a href="https://learn.sparkfun.com/tutorials/813">
 	<figure markdown>
-	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/178-100/assets/learn_tutorials/8/1/3/Location-Wandering-GPS-combined.jpg)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/8/1/3/Location-Wandering-GPS-combined.jpg)
 	</figure>
 
 	---
@@ -302,7 +310,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 
 -   <a href="https://learn.sparkfun.com/tutorials/2583">
 	<figure markdown>
-	![Tutorial Thumbnail](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_-_Hookup_Guide_Preview.jpg)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_-_Hookup_Guide_Preview.jpg)
 	</figure>
 
 	---
@@ -311,7 +319,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 
 -   <a href="https://learn.sparkfun.com/tutorials/1362">
 	<figure markdown>
-	![Tutorial Thumbnail](https://cdn.sparkfun.com/assets/learn_tutorials/1/3/6/2/GNSS_RTK_DIY_Surveying_Tutorial.jpg)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/3/6/2/GNSS_RTK_DIY_Surveying_Tutorial.jpg)
 	</figure>
 
 	---
@@ -320,7 +328,7 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 
 -   <a href="https://learn.sparkfun.com/tutorials/1363">
 	<figure markdown>
-	![Tutorial Thumbnail](https://cdn.sparkfun.com/assets/learn_tutorials/1/3/6/3/Roof_Enclosure.jpg)
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/3/6/3/Roof_Enclosure.jpg)
 	</figure>
 
 	---
