@@ -4,7 +4,7 @@ icon: material/book-open-page-variant
 
 ## Product Resources
 
-- :sfe-logo: [Product Page](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html)
+- :sfe: [Product Page](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html)
 - :material-folder-cog: Design Files:
 	- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
 	<!-- - :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf) -->
@@ -54,7 +54,7 @@ icon: material/book-open-page-variant
 - :material-youtube: [SFE Product Showcase](https://www.youtube.com/watch?v=e3OKRtJDPgw)
 
 
-### :sfe-logo: Additional Resources
+### :sfe: Additional Resources
 
 - [Qwiic Information Page](https://www.sparkfun.com/qwiic)
 - :material-account-supervisor: [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance)

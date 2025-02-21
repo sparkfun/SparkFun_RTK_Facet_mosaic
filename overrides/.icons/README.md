@@ -3,7 +3,7 @@
 This folder should contain branding logos for the product documentation
 
 ## General Images
-- `sfe-logo.svg` - SparkFun flame logo
+- `sfe.svg` - SparkFun flame logo
 - `kicad-primary.svg` - Full KiCad logo
 
 ## Directory
