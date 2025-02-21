@@ -417,81 +417,79 @@ Most applications do not need to utilize this port and will send the NMEA positi
 </figcaption>
 </figure>
 
-This slot accepts standard microSD cards up to 32GB formatted for `FAT16` or `FAT32`. Logging any of 67 messages at up to 4Hz is supported for all constellations.
+This slot accepts standard microSD cards up to 32GB formatted for `FAT32`.
 
-The following 67 messages are supported for logging:
+The following messages are supported for logging:
 
 
 <div class="grid" style="grid-template-columns: repeat(auto-fit,minmax(8rem,1fr));" markdown>
 
 <div markdown>
+- NMEA-ALM
+- NMEA-AVR
+- NMEA-DTM
+- NMEA-GBS
+- NMEA-GFA
+- NMEA-GGA
+- NMEA-GGK
+- NMEA-GGQ
+- NMEA-GLL
+- NMEA-GMP
+- NMEA-GNS
+- NMEA-GRS
 - NMEA-GSA
 - NMEA-GST
 - NMEA-GSV
+- NMEA-HDT
+- NMEA-HRP
+- NMEA-LLK
+- NMEA-LLQ
+- NMEA-RBD
+</div>
+
+<div markdown>
+- NMEA-RBP
+- NMEA-RBV
 - NMEA-RMC
-- NMEA-VLW
+- NMEA-ROT
+- NMEA-SNC
+- NMEA-TFM
+- NMEA-THS
+- NMEA-TXTbase
 - NMEA-VTG
 - NMEA-ZDA
-- NAV-CLOCK
-- NAV-DOP
-- NAV-EOE
-- NAV-GEOFENCE
-- NAV-HPPOSECEF
-- NAV-HPPOSLLH
-- NAV-ODO
-- NAV-ORB
-- NAV-POSECEF
-- NAV-POSLLH
-- NAV-PVT
-- NAV-RELPOSNED
-- NAV-SAT
-- NAV-SIG
+- RTCM3-1001
+- RTCM3-1002
+- RTCM3-1003
+- RTCM3-1004
+- RTCM3-1005
+- RTCM3-1006
+- RTCM3-1007
+- RTCM3-1108
+- RTCM3-1009
+- RTCM3-1010
 </div>
 
 <div markdown>
-- NAV-STATUS
-- NAV-SVIN
-- NAV-TIMEBDS
-- NAV-TIMEGAL
-- NAV-TIMEGLO
-- NAV-TIMEGPS
-- NAV-TIMELS
-- NAV-TIMEUTC
-- NAV-VELECEF
-- NAV-VELNED
-- RXM-MEASX
-- RXM-RAWX
-- RXM-RLM
-- RXM-RTCM
-- RXM-SFRBX
-- MON-COMMS
-- MON-HW2
-- MON-HW3
-- MON-HW
-- MON-IO
-</div>
-
-<div markdown>
-- MON-MSGPP
-- MON-RF
-- MON-RXBUF
-- MON-RXR
-- MON-TXBUF
-- TIM-TM2
-- TIM-TP
-- TIM-VRFY
-- RTCM3x-1005
-- RTCM3x-1074
-- RTCM3x-1077
-- RTCM3x-1084
-- RTCM3x-1087
-- RTCM3x-1094
-- RTCM3x-1097
-- RTCM3x-1124
-- RTCM3x-1127
-- RTCM3x-1230
-- RTCM3x-4072-0
-- RTCM3x-4072-1
+- RTCM3-1011
+- RTCM3-1012
+- RTCM3-1013
+- RTCM3-1019
+- RTCM3-1020
+- RTCM3-1029
+- RTCM3-1033
+- RTCM3-1042
+- RTCM3-1044
+- RTCM3-1045
+- RTCM3-1046
+- MSM1
+- MSM2
+- MSM3
+- MSM4
+- MSM5
+- MSM6
+- MSM7
+- RTCM3-1230
 </div>
 
 </div>
