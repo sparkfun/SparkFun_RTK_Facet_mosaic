@@ -53,7 +53,7 @@ icon: material/book-open-page-variant
 
 	In addition to supplying position data, the RTK Facet mosaic L-Band is capable of logging NMEA, RAWX, and SFRBX for post processing making it ideal for research and advanced positioning applications.
 
-	The RTK Facet mosaic L-Band is an open source hardware product meaning you can fully obtain, see, and even modify the electrical and mechanical design files. This allows for easier maintenance and repair over time.
+	The RTK Facet mosaic L-Band is an open-source hardware product meaning you can fully obtain, see, and even modify the electrical and mechanical design files. This allows for easier maintenance and repair over time.
 
 	The SparkPNT RTK Facet mosaic L-Band kit includes everything you need: the enclosed device, thread adapter, charger, data cables, and carrying case. It does **NOT** include a [surveying pole](https://www.sparkfun.com/telescopic-surveying-pole.html) *(any additional items will need to be purchased separately)*.
 
@@ -308,14 +308,14 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 
 	**What is GPS RTK?**</a>
 
--   <a href="https://learn.sparkfun.com/tutorials/2583">
+-   <a href="https://docs.sparkfun.com/SparkFun_RTK_Everywhere_Firmware">
 	<figure markdown>
-	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_-_Hookup_Guide_Preview.jpg)
+	![Tutorial Thumbnail](https://docs.sparkfun.com/SparkFun_RTK_Everywhere_Firmware/img/thumbnail.jpg)
 	</figure>
 
 	---
 
-	**SparkFun RTK Facet L-Band Hookup Guide**</a>
+	**SparkFun RTK Everywhere Product Manual**</a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/1362">
 	<figure markdown>
@@ -335,6 +335,14 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 
 	**How to Build a DIY GNSS Reference Station**</a>
 
+-   <a href="https://learn.sparkfun.com/tutorials/2583">
+	<figure markdown>
+	![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_-_Hookup_Guide_Preview.jpg)
+	</figure>
+
+	---
+
+	**SparkFun RTK Facet L-Band Hookup Guide**</a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/8">
 	<figure markdown>
