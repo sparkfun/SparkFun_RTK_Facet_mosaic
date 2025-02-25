@@ -273,7 +273,7 @@ This USB-C connector is used for four purposes:
 * Configuring the RTK Facet mosaic, and reprogramming the ESP32
 * Configuring or updating the firmware of the mosaic-X5 *(as needed)*
 
-There is a USB hub built into the RTK Facet mosaic. When you attach the device to your computer it will enumerate as two COM ports.
+There is a USB hub built into the RTK Facet mosaic. When you attach the device to your computer it will enumerate as two COM ports. In the mosaic-X5 firmware, these are named the _USB1_ and _USB2_ COM ports.
 
 <figure markdown>
 [![Two COM ports from one USB device](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_Ports.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_Ports.jpg)
@@ -362,15 +362,15 @@ Configuring the RTK Facet mosaic can be done over the *USB-Serial CH340* COM por
 
 
 
-### Radio
+### RADIO
 
 <figure markdown>
-[![RTK Facet mosaic Radio Connector](./assets/img/hookup_guide/connections-data.png){ width="500" }](./assets/img/hookup_guide/connections-data.png "Click to enlarge")
+[![RTK Facet mosaic Radio Connector](./assets/img/hookup_guide/connections-radio.png){ width="500" }](./assets/img/hookup_guide/connections-radio.png "Click to enlarge")
 <figcaption markdown>
 </figcaption>
 </figure>
 
-This port is used when an external cellular or radio link is needed. This port is *not* used if you transfer RTCM from your phone to the RTK Facet mosaic over Bluetooth.
+This port is used when an external cellular or radio link is needed. Internally, it is routed to the mosaic-X5 **COM2** UART port. This port is *not* used if you transfer RTCM from your phone to the RTK Facet mosaic over Bluetooth.
 
 This 4-pin JST connector can be used to allow RTCM correction data to flow into the device when it is acting as a **Rover** or out of the device when it is acting as a **Base**. The connector is a 4-pin locking 1.25mm JST SMD connector (1). The RTK Facet mosaic comes with a cable to interface to this connector, but [additional cables](https://www.sparkfun.com/products/17239) can be purchased separately. You will most likely connect one of our [Serial Telemetry Radios](https://www.sparkfun.com/products/19032) to this port, if you don't have access to a correction source on the internet. The pinout is **3.5-5.5V**/`TX`/`RX`/`GND` from left to right as pictured. **3.5V to 5.5V** is provided by this connector to power a radio with a voltage that depends on the power source. If USB is connected to the RTK Facet mosaic then voltage on this port will be **5V** (+/-10%). If running off of the internal battery then voltage on this port will vary with the battery voltage (**3.5V** to **4.2V** depending on the state of charge). This port is capable of sourcing up to **600mA** and is protected by a PTC (resettable fuse). This port should not be connected to a power source.
 { .annotate }
@@ -381,7 +381,7 @@ This 4-pin JST connector can be used to allow RTCM correction data to flow into 
 	- Mating cable connector
 		- **part#:** GHR-04V-S
 
-### Data
+### DATA
 
 <figure markdown>
 [![RTK Facet mosaic Data Port](./assets/img/hookup_guide/connections-data.png){ width="500" }](./assets/img/hookup_guide/connections-data.png "Click to enlarge")
@@ -402,7 +402,7 @@ This 4-pin JST connector is used to output and input a variety of data to the RT
 
 Internally, the Data connector is connected to a digital mux allowing one of four software selectable setups. See the [Ports Menu](https://docs.sparkfun.com/SparkFun_RTK_Firmware/menu_ports/) for a description of each option.:
 
-- **NMEA** - The `TX` pin outputs any enabled messages (NMEA and RTCM) at a default of **460800bps** (configurable 9600 to 921600bps). The `RX` pin can receive RTCM messages for an RTK fix.
+- **NMEA** - The `TX` pin outputs any enabled messages (NMEA and RTCM) at a default of **460800bps** (configurable 9600 to 921600bps). The `RX` pin can receive RTCM messages for an RTK fix. Internally, `TX` and `RX` are routed to the mosaic-X5 **COM3** UART port.
 - **PPS/Trigger** - The `TX` pin outputs the pulse-per-second signal that is accurate to 30ns RMS. The `RX` pin is connected to the `EVENTA` pin on the mosaic-X5, allowing for events to be measured with incredibly accurate nano-second resolution. Useful for things like audio triangulation.
 - **I^2^C** - The `TX` pin operates as `SCL`, `RX` pin as `SDA` on the I^2^C bus. This allows additional sensors to be connected to the I2C bus.
 - **GPIO** - The `TX` pin operates as a DAC capable `GPIO 21` on the ESP32. The `RX` pin operates as a ADC capable input (`GPIO39`) on the ESP32. This is useful for custom applications.
