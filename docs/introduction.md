@@ -7,7 +7,7 @@ icon: material/book-open-page-variant
 
 -   <a href="https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic.html">
 	**SparkPNT RTK Facet mosaic**<br>
-	**SKU:** GPS-24903
+	**SKU:** GPS-29688
 
 	---
 
