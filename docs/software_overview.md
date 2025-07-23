@@ -120,18 +120,6 @@ The RTK Facet mosaic transmits full NMEA sentences over Bluetooth serial port pr
 
 Please see the [SparkFun RTK Everywhere Firmware Manual](http://docs.sparkfun.com/SparkFun_RTK_Everywhere_Firmware/connecting_bluetooth/) for step by step instructions.
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## :septentrio: mosaic-X5
 
 ### :fontawesome-solid-computer: RxTools Software Suite

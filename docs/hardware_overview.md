@@ -5,7 +5,7 @@ icon: material/cog
 The RTK Facet mosaic is a fully enclosed and pre-programmed device. There are very few things to worry about or configure, but we will cover the basics here.
 
 ## :material-folder-cog: Design Files
-The design of the SparkPNT RTK Facet mosaic L-Band is similar to previous generations in our line Facet line of products. However, we have made some modifications to the design to enhance the durability of this product. The PCB design features three separate board components:
+The design of the SparkPNT RTK Facet mosaic is similar to previous generations in our line Facet line of products. However, we have made some modifications to the design to enhance the durability of this product. The PCB design features three separate board components:
 
 - A central board that hosts primary components of the RTK Facet mosaic, such as the ESP32-WROVER-E, mosaic-X5, etc.
 - A peripheral board that provides connections to the RTK Facet mosaic
@@ -173,7 +173,6 @@ The RTK Facet mosaic has a ++"POWER/SETUP"++ button to turn the device on/off or
 	- **Rover**
 		- GNSS Positioning (~30cm accuracy) - also known as **Rover**
 		- GNSS Positioning with RTK (1.4cm accuracy) - also known as **Rover** *with RTK Fix*
-		- GNSS Positioning with RTK L-Band (1.4 to 6cm accuracy) - also known as **Rover** *with L-Band RTK Fix*
 	- **Base**
 		- GNSS **Base** Station
 		- GNSS **Base** Station *as NTRIP Server*
@@ -234,19 +233,13 @@ At *Power On* the device will enter **Rover** or **Base** mode; whichever state 
 
 	- *w/ RTK Fix*
 
-		:	If the device is in **Rover** mode but L-Band is not available, regular RTCM based RTK is still available. When RTCM correction data is sent over Bluetooth® or into the radio port, the device will automatically enter Positioning with RTK mode. In this mode RTK Facet mosaic will receive `L1`/`L2`/`L5` signals from the antenna; and correction data from a base station. The receiver will quickly (within a second) obtain an RTK float, then fix. The NMEA sentences will have increased accuracy of **10mm** horizontal and **10mm** vertical accuracy.
+		:	If the device is in **Rover** mode and RTCM correction data is sent over Bluetooth® or into the radio port, the device will automatically enter Positioning with RTK mode. In this mode RTK Facet mosaic will receive `L1`/`L2`/`L5` signals from the antenna; and correction data from a base station. The receiver will quickly (within a second) obtain an RTK float, then fix. The NMEA sentences will have increased accuracy of **10mm** horizontal and **10mm** vertical accuracy.
 
 			1. The RTCM correction data is most easily obtained over the Internet using a free app on your phone (see our SW Maps *([Android](http://docs.sparkfun.com/SparkFun_RTK_Everywhere_Firmware/gis_software_android/#sw-maps)/[iOS](http://docs.sparkfun.com/SparkFun_RTK_Everywhere_Firmware/gis_software_ios/#sw-maps))* or [Lefebure NTRIP](http://docs.sparkfun.com/SparkFun_RTK_Everywhere_Firmware/gis_software_android/#lefebure) instructions) and sent over Bluetooth® to the RTK Facet mosaic.
 			2. The RTCM correction data can also be received over an external cellular or radio link from a 2nd RTK Facet, Surveyor, Express, etc. that is setup as a base station.
 
-	- *w/ RTK L-Band Fix*
-
-		:	In **Rover** mode the RTK Facet mosaic will check if WiFi is available and update any L-Band keys needed (keys expire every 56 days). The device will automatically begin receiving and decrypting position correction data. Simultaneously, the RTK Facet mosaic will receive `L1`, `L2`, and `L5` GNSS signals from the four constellations (GPS, GLONASS, Galileo, and BeiDou). The device will calculate the position based on the combination of GNSS and correction signals. The receiver will quickly (within 60 seconds) obtain an RTK float, then fix. Similar to a standard grade GPS receiver, the RTK Facet mosaic will output industry standard NMEA sentences at 4Hz and broadcast them to any paired Bluetooth® device. The end user will need to parse the NMEA sentences using commonly available mobile apps, GIS products, or embedded devices (there are many open source libraries). Unlike standard grade GPS receivers that have **2500mm** accuracy, the accuracy in this mode is approximately **10 to 60mm** horizontal positional accuracy.
-
 !!! info "**Base** Mode"
 	In **Base** mode the device will enter Base Station mode. This is used when the device is mounted to a fixed position (like a tripod or roof). The RTK Facet mosaic will initiate a survey. After 60 to 120 seconds the survey will complete and the RTK Facet mosaic will begin transmitting RTCM correction data out the radio port. A base is often used in conjunction with a second RTK Facet mosaic (or RTK Surveyor, Express, Express Plus, etc) unit set to *Rover* to obtain the **10mm** accuracy. Said differently, the Base sits still and sends correction data to the Rover; so that the Rover can calculate a really accurate position.
-
-
 
 ## Connectors
 
@@ -519,7 +512,7 @@ This 4-pin [Qwiic connector](https://www.sparkfun.com/qwiic) exposes the I^2^C b
 </figcaption>
 </figure>
 
-It's built in! Housed under the dome of the RTK Facet mosaic is a surveyor grade L1/L2/L-Band antenna. This antenna is a unique combination of elements designed to receive the GNSS signals (L1/L2) alongside the 1.55GHz PointPerfect corrections.
+It's built in! Housed under the dome of the RTK Facet mosaic is a surveyor grade L1/L2/L5 antenna. This antenna is a unique combination of elements designed to receive the GNSS signals (L1/L2/L5).
 
 <figure markdown>
 [![SparkFun RTK Facet mosaic Antenna Reference Point](https://cdn.sparkfun.com/r/500-500/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_ARP.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_ARP.jpg)
