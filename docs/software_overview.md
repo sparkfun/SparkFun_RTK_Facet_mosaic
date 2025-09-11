@@ -125,9 +125,9 @@ Please see the [SparkFun RTK Everywhere Firmware Manual](http://docs.sparkfun.co
 ### :fontawesome-solid-computer: RxTools Software Suite
 Even if you aren't necessarily interested in it, we highly recommend that users install the [RXTools software suite](https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools) before connecting to the mosaic-X5. For Windows PCs, it also includes the USB driver for the module that enables the Ethernet-over-USB support and virtual `COM` ports.
 
-<center>
+<article style="text-align: center;" markdown>
 [:octicons-download-16:{ .heart } Download the RxTools Software from Septentrio](https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools){ .md-button .md-button--primary target="blank" }
-</center>
+</article>
 
 ??? info "System Requirements[^1]"
 
