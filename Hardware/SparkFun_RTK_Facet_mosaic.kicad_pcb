@@ -13665,23 +13665,12 @@
 			(thermal_bridge_angle 0)
 			(uuid "57bf5c76-816f-4318-b152-2d0d0f425064")
 		)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/GPS/mosaic.wrl"
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/GPS/Septentrio_mosaic-X5-Rev5.step"
 			(offset
-				(xyz -15.5 -15.5 0)
+				(xyz -15.5 -15.5 0.94)
 			)
 			(scale
 				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/GPS/mosaic_sticker-H.wrl"
-			(offset
-				(xyz -12.5 12.5 4.5)
-			)
-			(scale
-				(xyz 0.25 0.25 1)
 			)
 			(rotate
 				(xyz 0 0 0)

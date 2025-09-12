@@ -3049,13 +3049,13 @@
 		)
 		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/JST_SMD_1.25mm-4_Locking.step"
 			(offset
-				(xyz 0 1.5 0)
+				(xyz -1.25 0.78 0.036)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -3566,13 +3566,13 @@
 		)
 		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/JST_SMD_1.25mm-4_Locking.step"
 			(offset
-				(xyz 0 1.5 0)
+				(xyz -1.25 0.78 0.036)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
