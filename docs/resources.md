@@ -52,8 +52,8 @@ icon: material/book-open-page-variant
 
 		---
 
-		- :fontawesome-solid-file-pdf: [Hardware Manual](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf)
-		- :fontawesome-solid-file-pdf: [Firmware Reference Guide](./assets/component_documentation/mosaic-X5%20Firmware%20v4.14.0%20Reference%20Guide.pdf)
+		- :fontawesome-solid-file-pdf: [Hardware Manual](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf)
+		- :fontawesome-solid-file-pdf: [Firmware Reference Guide](./assets/component_documentation/mosaic-X5_Firmware_v4.15.0_Reference_Guide.pdf)
 		- :fontawesome-solid-file-pdf: [Brochure](./assets/component_documentation/Septentrio_mosaic-X5_LR.pdf)
 
 	- :espressif: ESP32-WROVER-E
