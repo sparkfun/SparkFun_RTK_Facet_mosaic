@@ -40,22 +40,22 @@ The design of the SparkPNT RTK Facet mosaic is similar to previous generations i
 -   <!-- Boxes in tabs -->
 
 	=== "Connector Board"
-		<center>
+		<article style="margin: auto;" markdown>
 		<model-viewer src="../assets/3d_model/connector_board.glb" poster="../assets/3d_model/poster-connector_board.jpeg" camera-controls tone-mapping="neutral" poster="poster.jpeg" shadow-intensity="1.35" exposure="0.6" shadow-softness="0.8" environment-image="legacy" camera-orbit="0.0004711deg 90.01deg 108.5m" field-of-view="25.11deg" style="width: 100%; height: 450px;">
 		</model-viewer>
-		</center>
+		</article>
 
 	=== "Display Board"
-		<center>
+		<article style="margin: auto;" markdown>
 		<model-viewer src="../assets/3d_model/display_board.glb" poster="../assets/3d_model/poster-display_board.jpeg" camera-controls tone-mapping="neutral" poster="poster.jpeg" shadow-intensity="1.35" environment-image="legacy" exposure="0.6" shadow-softness="0.8" camera-orbit="-0.0002197deg 89.6deg 101.9m" field-of-view="25.11deg" style="width: 100%; height: 450px;">
 		</model-viewer>
-		</center>
+		</article>
 
 	=== "Main Board"
-		<center>
+		<article style="margin: auto;" markdown>
 		<model-viewer src="../assets/3d_model/main_board.glb" poster="../assets/3d_model/poster-main_board.jpeg" camera-controls tone-mapping="neutral" poster="poster.jpeg" camera-controls tone-mapping="neutral" poster="poster.jpeg" shadow-intensity="1.35" camera-orbit="0deg 90deg 110m" field-of-view="25.11deg" environment-image="legacy" exposure="0.6" shadow-softness="0.8" style="width: 100%; height: 450px;">
 		</model-viewer>
-		</center>
+		</article>
 
 
 	??? tip "Need Dimensions?"
@@ -64,20 +64,20 @@ The design of the SparkPNT RTK Facet mosaic is similar to previous generations i
 		!!! info ":octicons-download-16:{ .heart } KiCad - Free Download!"
 			KiCad is free, open-source [CAD]("computer-aided design") program for electronics. Click on the button below to download their software. *(\*Users can find out more information about KiCad from their [website](https://www.kicad.org/).)*
 
-			<center>
+			<article style="text-align: center;" markdown>
 			[Download :kicad-primary:{ .enlarge-logo }](https://www.kicad.org/download/ "Go to downloads page"){ .md-button .md-button--primary width="250px" }
-			</center>
+			</article>
 
 
 		??? info ":straight_ruler: Measuring Tool"
 			This video demonstrates how to utilize the dimensions tool in KiCad, to include additional measurements:
 
-			<center>
-			<article class="video-500px">
+
+			<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 			<iframe src="https://www.youtube.com/embed/-eXuD8pkCYw" title="KiCad Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</article>
+
 			![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
-			</center>
+			</article>
 
 </div>
 
@@ -300,9 +300,9 @@ In the image above, the `USB-SERIAL CH340` is the ESP32 and the `USB Serial Devi
 	!!! info ":simple-linux: Linux"
 		A USB driver should not be required for most Linux based operating systems; the standard Linux CDC-ACM driver is usually sufficient. However, if necessary, users can try the USB driver below:
 
-		<center>
+		<article style="text-align: center;" markdown>
 		[:octicons-download-16:{ .heart } Download Page for `CH341SER_LINUX.ZIP`](https://www.wch-ic.com/downloads/CH341SER_LINUX_ZIP.html){ .md-button .md-button--primary target="blank" }
-		</center>
+		</article>
 
 
 	---
@@ -314,9 +314,9 @@ In the image above, the `USB-SERIAL CH340` is the ESP32 and the `USB Serial Devi
 
 	<div class="grid cards" markdown>
 
-	-   <center>
+	-   <article style="text-align: center;" markdown>
 		:material-microsoft-windows: **Windows**
-		</center>
+		</article>
 
 		---
 
@@ -336,9 +336,9 @@ In the image above, the `USB-SERIAL CH340` is the ESP32 and the `USB Serial Devi
 		??? tip "Having Trouble?"
 			For users who are having trouble installing the USB driver, we have an archived version *(v3.0.2)* of the installation file. Users can download [**version 3.0.2**](https://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/assets/component_documentation/driver/USB_driver_3_0_2_Installer.exe) of the driver, by clicking on the button below.
 
-			<center>
+			<article style="text-align: center;" markdown>
 			[:octicons-download-16:{ .heart } Download USB Driver *(v3.0.2)*](https://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/assets/component_documentation/driver/USB_driver_3_0_2_Installer.exe){ .md-button .md-button--primary target="blank" }
-			</center>
+			</article>
 
 			!!! note "Latest Driver"
 				This driver version was archived at the time that the [mosaic-X5 hookup guide](https://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/) was written. *Please do not request for the file to be updated.*

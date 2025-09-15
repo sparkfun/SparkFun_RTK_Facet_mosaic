@@ -17,12 +17,10 @@ icon: material/book-open-page-variant
 	</figure></a>
 
 
-	<center>
-	<article class="video-500px">
+	<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/e3OKRtJDPgw" title="Product Showcase Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	![QR code to product video](./assets/img/qr_code/product_video.png){ .qr width=100 }
 	</article>
-	</center>
 
 
 -	Designed and manufactured in Boulder, Colorado, USA, and utilizing the multi-band mosaic-X5 from Septentrio, the [SparkPNT RTK Facet mosaic](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic.html) is *the* top of the line receiver for high precision geolocation and surveying needs. For basic users, it's incredibly easy to get up and running; for advanced users, the RTK Facet mosaic is a flexible and powerful tool. With just the press of a button, the RTK Facet mosaic is the fastest way to take centimeter-grade measurements. With a [subscription to the PointPerfect Flex NTRIP/RTCM service](https://www.sparkfun.com/rtk_facet_mosaic_registration) or any other correction service, 10mm Real Time Kinematic fixes are less than a minute away. By connecting your phone to the RTK Facet mosaic over Bluetooth®, your phone or tablet can receive the NMEA output and work with most GIS software programs. This is exactly how $10,000 surveying devices have been operating for the past decade - we just made it faster, more precise, and a lot more economical.
@@ -51,10 +49,10 @@ icon: material/book-open-page-variant
 	The SparkPNT RTK Facet mosaic kit includes everything you need: the enclosed device, thread adapter, charger, data cables, and carrying case. It does **NOT** include a [surveying pole](https://www.sparkfun.com/telescopic-surveying-pole.html) *(any additional items will need to be purchased separately)*.
 
 
-	<center>
-	
-	[&nbsp;![QR code to product page](./assets/img/qr_code/product-low.png){ .tinyqr }&nbsp;&nbsp;Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }&nbsp;&nbsp;&nbsp;](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic.html){ .md-button .md-button--primary }
-	</center>
+	<article style="text-align: center;" markdown>
+	![QR code to product page](./assets/img/qr_code/product-low.png){ .tinyqr }
+	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic.html){ .md-button .md-button--primary }
+	</article>
 
 </div>
 

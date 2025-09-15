@@ -28,9 +28,9 @@ In order to interface with the ESP32 module, the USB driver for the CH340 USB-to
 !!! info ":simple-linux: Linux"
 	A USB driver should not be required for most Linux based operating systems; the standard Linux CDC-ACM driver is usually sufficient. However, if necessary, users can try the USB driver below:
 
-	<center>
+	<article style="text-align: center;" markdown>
 	[:octicons-download-16:{ .heart } Download Page for `CH341SER_LINUX.ZIP`](https://www.wch-ic.com/downloads/CH341SER_LINUX_ZIP.html){ .md-button .md-button--primary target="blank" }
-	</center>
+	</article>
 
 
 ### :septentrio: mosaic-X5
@@ -39,9 +39,9 @@ In order to interface with the mosaic-X5 on Windows computers, a USB driver must
 
 <div class="grid cards" markdown>
 
--   <center>
+-   <article style="text-align: center;" markdown>
 	:material-microsoft-windows: **Windows**
-	</center>
+	</article>
 
 	---
 
@@ -61,9 +61,9 @@ In order to interface with the mosaic-X5 on Windows computers, a USB driver must
 	??? tip "Having Trouble?"
 		For users who are having trouble installing the USB driver, we have an archived version *(v3.0.2)* of the installation file. Users can download [**version 3.0.2**](https://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/assets/component_documentation/driver/USB_driver_3_0_2_Installer.exe) of the driver, by clicking on the button below.
 
-		<center>
+		<article style="text-align: center;" markdown>
 		[:octicons-download-16:{ .heart } Download USB Driver *(v3.0.2)*](https://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/assets/component_documentation/driver/USB_driver_3_0_2_Installer.exe){ .md-button .md-button--primary target="blank" }
-		</center>
+		</article>
 
 		!!! note "Latest Driver"
 			This driver version was archived at the time that the [mosaic-X5 hookup guide](https://docs.sparkfun.com/SparkFun_GNSS_mosaic-X5/) was written. *Please do not request for the file to be updated.*
@@ -267,11 +267,9 @@ With the USB driver installed, the mosaic-X5 module supports Ethernet-over-USB. 
 
 <div markdown>
 
-<center>
-<article class="video-500px">
+<article class="video-500px" style="margin: auto;" markdown>
 <iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8" title="Septentrio: Getting started with the Septentrio mosaic receiver module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
-</center>
 
 </div>
 
