@@ -1,5 +1,16 @@
 {% extends "base.html" %}
 
+<!-- Announcement bar -->
+{% block announce %}
+  <article style="text-align: center;">
+    <span class="twemoji sfe">
+      {% include ".icons/sfe.svg" %}
+    </span>
+    <strong>New Firmware Release:</strong> Beginning with firmware <code>v4.16.0+</code>, Septentrio's firmware will prevent users from downgrading to earlier versions for security reasons.</a>
+  </article>
+{% endblock %}
+
+
 {% block content %}
 
 <!-- Adds file-eye icon to view hookup guide as a single page -->

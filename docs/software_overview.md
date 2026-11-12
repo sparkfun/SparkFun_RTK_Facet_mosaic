@@ -120,7 +120,27 @@ The RTK Facet mosaic transmits full NMEA sentences over Bluetooth serial port pr
 
 Please see the [SparkFun RTK Everywhere Firmware Manual](http://docs.sparkfun.com/SparkFun_RTK_Everywhere_Firmware/connecting_bluetooth/) for step by step instructions.
 
+
+
 ## :septentrio: mosaic-X5
+
+!!!danger "mosaic-X5 Firmware"
+	Beginning with firmware `v4.16.0+`, Septentrio's firmware will prevent users from downgrading to earlier versions for security reasons. This is to comply with the European Radio Equipment Directive-Delegated Regulation (EU) 2022/30 (RED-DA), effective as of Aug 1st 2025, installation of the firmware will limit downgrade capability. For more details, please refer to the following articles:
+
+
+	- [Support notification - New firmware release to support RED cybersecurity requirements](https://www.septentrio.com/en/support/support-news/support-notification-new-firmware-release-support-red-cybersecurity)
+
+
+	!!!warning
+		Beginning with firmware `v4.15.0+`, Septentrio has introduced a mandatory user login requirement to comply with the *EU Radio Equipment Directive (RED) 2014/53/EU, specifically Article 3(3) (d), (e) and (f)* regulations. This update has been gradually applied to all receivers leaving production (beginning August 1, 2025). For more details, please refer to the following articles:
+
+
+		- [Cybersecurity guidelines: General](https://customersupport.septentrio.com/s/article/Cybersecurity-guidelines-general)
+		- [Cybersecurity guidelines: Log-in procedure](https://customersupport.septentrio.com/s/article/Cybersecurity-guidelines-Log-in-procedure)
+		- [Cybersecurity guidelines: What is the new Permanent configuration?](https://customersupport.septentrio.com/s/article/Cybersecurity-guidelines-What-is-the-new-Permanent-configuration)
+		- [Cybersecurity guidelines: How can I recover connection to my receiver if I’ve lost my credentials?](https://customersupport.septentrio.com/s/article/How-can-I-recover-connection-to-my-receiver-if-I-ve-lost-my-credentials)
+
+
 
 ### :fontawesome-solid-computer: RxTools Software Suite
 Even if you aren't necessarily interested in it, we highly recommend that users install the [RXTools software suite](https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools) before connecting to the mosaic-X5. For Windows PCs, it also includes the USB driver for the module that enables the Ethernet-over-USB support and virtual `COM` ports.
