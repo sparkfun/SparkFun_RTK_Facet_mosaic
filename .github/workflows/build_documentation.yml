@@ -30,7 +30,7 @@ jobs:
           python-version: 3.x
 
       - name: Install Python dependencies
-        run: pip install mkdocs-monorepo-plugin mkdocs-redirects mkdocs-git-revision-date-localized-plugin mkdocs-git-committers-plugin-2 Pillow 'mkdocs-material[imaging]'
+        run: pip install -r requirements.txt
 
       - name: Set up build cache
         run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
@@ -41,8 +41,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
 
-      - name: Install Insiders build
-        env:
-          MKDOCS_TOKEN: ${{ secrets.MKDOCS_SECRET }}
+      - name: Build and deploy documentation
         run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
