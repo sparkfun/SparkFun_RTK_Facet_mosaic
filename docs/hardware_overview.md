@@ -172,8 +172,9 @@ The RTK Facet mosaic has a ++"POWER/SETUP"++ button to turn the device on/off or
 		- GNSS Positioning (~30cm accuracy) - also known as **Rover**
 		- GNSS Positioning with RTK (1.4cm accuracy) - also known as **Rover** *with RTK Fix*
 	- **Base**
-		- GNSS **Base** Station
-		- GNSS **Base** Station *as NTRIP Server*
+		- GNSS **Base** Station - Survey-In
+		- GNSS **Base** Station - Transmitting RTCM Data
+		- GNSS **Base** Station - NTRIP Server
 
 
 

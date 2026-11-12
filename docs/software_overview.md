@@ -324,9 +324,7 @@ Before users can connect to the SparkPNT RTK Facet mosaic, they will need to spe
 
 <figure markdown>
 [![UART Settings in PyGPSClient](./assets/img/hookup_guide/pygpsclient-uart_settings.png){ width="400" }](./assets/img/hookup_guide/pygpsclient-uart_settings.png "Click to enlarge")
-<figcaption markdown>
-Specify the settings for the UART port in QGNSS.
-</figcaption>
+<figcaption markdown>Specify the settings for the UART port in PyGPSClient.</figcaption>
 </figure>
 
 </div>
