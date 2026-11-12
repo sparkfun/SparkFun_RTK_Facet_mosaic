@@ -13,7 +13,7 @@ Basic RTK Facet mosaic Rover setup with RTCM over Bluetooth
 </figcaption>
 </figure>
 
-Shown above is the most common RTK Rover setup. A monopole designed for cameras is used. The ¼” camera thread of the monopole is [adapted to ⅝” 11-TPI](https://www.sparkfun.com/products/17546) and the RTK Facet mosaic is mounted on top. No radio is needed because RTCM correction data is provided by a phone over Bluetooth.
+Shown above is the most common RTK Rover setup. A monopole designed for cameras is used. The ¼” camera thread of the monopole is [adapted to ⅝” 11-TPI](https://www.sparkfun.com/antenna-thread-adapter-1-4in-to-5-8in.html) and the RTK Facet mosaic is mounted on top. No radio is needed because RTCM correction data is provided by a phone over Bluetooth.
 
 !!! tip
 	If you're shopping for a monopole (aka monopod), get one that is 65” in length or greater to ensure that the antenna will be above your head. We've had good luck with the [Amazon Basics](https://www.amazon.com/AmazonBasics-WT1003-67-Inch-Monopod/dp/B00FAYL1YU) brand.
@@ -37,7 +37,7 @@ If you are receiving RTCM correction data over a radio link it's recommended tha
 </figcaption>
 </figure>
 
-[Picture hanging strips](https://www.amazon.com/gp/product/B073XS3CHW) from 3M make a nice semi-permanent mount. Plug the 4-pin to 6-pin JST cable included with the RTK Facet mosaic from the **Radio** port to either of the [Serial Telemetry Radios](https://www.sparkfun.com/products/19032) (shipped in pairs). We really love these radios because they are paired out of the box, either can send or receive (so it doesn't matter which radio is attached to base or rover) and they have remarkable range. We achieved over a mile range (nearly 1.5 miles or 2.4km) with the 100mW radios and a [big 915MHz antenna](https://www.sparkfun.com/products/retired/14868) on the base (see [this tutorial](https://learn.sparkfun.com/tutorials/how-to-build-a-diy-gnss-reference-station#mini-computer-setup) for more info).
+[Picture hanging strips](https://www.amazon.com/gp/product/B073XS3CHW) from 3M make a nice semi-permanent mount. Plug the 4-pin to 6-pin JST cable included with the RTK Facet mosaic from the **Radio** port to either of the [Serial Telemetry Radios](https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html) (shipped in pairs). We really love these radios because they are paired out of the box, either can send or receive (so it doesn't matter which radio is attached to base or rover) and they have remarkable range. We achieved over a mile range (nearly 1.5 miles or 2.4km) with the 100mW radios and a [big 915MHz antenna](https://www.sparkfun.com/products/retired/14868) on the base (see [this tutorial](https://learn.sparkfun.com/tutorials/how-to-build-a-diy-gnss-reference-station#mini-computer-setup) for more info).
 
 ## Temporary Base
 
@@ -50,7 +50,7 @@ Temporary RTK Facet mosaic Base setup
 </figcaption>
 </figure>
 
-Any tripod with a ¼” camera thread will work. The [Amazon Basics tripod](https://www.amazon.com/AmazonBasics-Lightweight-Camera-Mount-Tripod/dp/B00XI87KV8) works well enough but is a bit light weight and rickety. The ¼” camera thread is [adapted to ⅝” 11-TPI](https://www.sparkfun.com/products/17546) and the RTK Facet mosaic is attached on top.
+Any tripod with a ¼” camera thread will work. The [Amazon Basics tripod](https://www.amazon.com/AmazonBasics-Lightweight-Camera-Mount-Tripod/dp/B00XI87KV8) works well enough but is a bit light weight and rickety. The ¼” camera thread is [adapted to ⅝” 11-TPI](https://www.sparkfun.com/antenna-thread-adapter-1-4in-to-5-8in.html) and the RTK Facet mosaic is attached on top.
 
 Once the base has been setup with a clear view of the sky, turn on the RTK Facet mosaic. Once on, press the *Setup* button to put the device in Base mode. The display will show the Survey-In screen for 60-120 seconds. Once the survey is complete the display will show the 'Xmitting' display and begin producing RTCM correction data. You can verify this by viewing the LEDs on the telemetry radio (a small red LED will blink when serial data is received from the RTK Facet mosaic). The RTK Facet mosaic is designed to follow the u-blox recommended survey-in of 60s and a mean 3D standard deviation of 5m of all fixes. If a survey fails to achieve these requirements it will auto-restart after 10 minutes.
 

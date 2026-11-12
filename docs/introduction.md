@@ -58,7 +58,7 @@ icon: material/book-open-page-variant
 
 !!! failure "Permanent Installation"
 	
-	The SparkPNT RTK Facet mosaic is not designed for permanent outdoor mounting. Please use the [RTK mosaic-X5](https://www.sparkfun.com/sparkfun-rtk-mosaic-x5.html) or the [RTK Reference Station](https://www.sparkfun.com/products/22429) that is located inside or protected from the elements. Or, for a DIY solution, the [ESP32](https://www.sparkfun.com/sparkfun-thing-plus-esp32-wroom-micro-b.html) attached to our [ZED-F9P breakout](https://www.sparkfun.com/sparkfun-gps-rtk-sma-breakout-zed-f9p-qwiic.html) is a great way to go. See our [How to Build a DIY GNSS Reference Station](https://learn.sparkfun.com/tutorials/how-to-build-a-diy-gnss-reference-station) tutorial for more information.
+	The SparkPNT RTK Facet mosaic is not designed for permanent outdoor mounting. Please use the [RTK mosaic-X5](https://www.sparkpnt.com/products/sparkpnt-sxm-e-cors) or the [RTK Reference Station](https://www.sparkfun.com/sparkfun-rtk-reference-station.html) that is located inside or protected from the elements. Or, for a DIY solution, the [ESP32](https://www.sparkfun.com/sparkfun-thing-plus-esp32-wroom-micro-b.html) attached to our [ZED-F9P breakout](https://www.sparkfun.com/sparkfun-gps-rtk-sma-breakout-zed-f9p-qwiic.html) is a great way to go. See our [How to Build a DIY GNSS Reference Station](https://learn.sparkfun.com/tutorials/how-to-build-a-diy-gnss-reference-station) tutorial for more information.
 
 
 !!! note "Completely Open-Source"
@@ -108,7 +108,7 @@ To get started, users will need a few items. Some users may already have a few o
 
 		<div class="grid cards" markdown>
 
-		-   <a href="https://www.sparkfun.com/products/19032">
+		-   <a href="https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/8/6/3/4/19032-SiK_Telemetry_Radio_V3_-_915MHz__100mW-01.jpg)
 			</figure>
@@ -118,7 +118,7 @@ To get started, users will need a few items. Some users may already have a few o
 			**SiK Telemetry Radio V3 - 915MHz, 100mW**<br>
 			WRL-19032</a>
 
-		-   <a href="https://www.sparkfun.com/products/20029">
+		-   <a href="https://www.sparkfun.com/sparkfun-loraserial-kit-915mhz-enclosed.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/9/7/9/0/SparkFun_LoRaSerial_Enclosed_-_20029-1.jpg)
 			</figure>
@@ -128,7 +128,7 @@ To get started, users will need a few items. Some users may already have a few o
 			**SparkFun LoRaSerial Kit - 915MHz (Enclosed)**<br>
 			WRL-20029</a>
 
-		-   <a href="https://www.sparkfun.com/products/17854">
+		-   <a href="https://www.sparkfun.com/ghr-04v-s-to-ghr-06v-s-cable-100mm.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/7/0/3/4/17854-GHR-04V-S_to_GHR-06V-S_Cable_-_50mm-01.jpg)
 			</figure>
@@ -145,7 +145,7 @@ To get started, users will need a few items. Some users may already have a few o
 
 		<div class="grid cards" markdown>
 
-		-   <a href="https://www.sparkfun.com/products/14743">
+		-   <a href="https://www.sparkfun.com/usb-3-1-cable-a-to-c-3-foot.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/2/9/7/2/14743-USB_3.1_Cable_A_to_C_-_3_Foot-01.jpg)
 			</figure>
@@ -155,7 +155,7 @@ To get started, users will need a few items. Some users may already have a few o
 			**USB 3.1 Cable A to C - 3 Foot**<br>
 			CAB-14743</a>
 
-		-   <a href="https://www.sparkfun.com/products/21271">
+		-   <a href="https://www.sparkfun.com/sparkfun-4-in-1-multi-usb-cable-usb-c-host.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/0/4/9/21271-_CAB-_01.jpg)
 			</figure>
@@ -165,7 +165,7 @@ To get started, users will need a few items. Some users may already have a few o
 			**SparkFun 4-in-1 Multi-USB Cable - USB-C Host**<br>
 			CAB-21271</a>
 
-		-   <a href="https://www.sparkfun.com/products/21272">
+		-   <a href="https://www.sparkfun.com/sparkfun-4-in-1-multi-usb-cable-usb-a-host.html">
 			<figure markdown>
 			![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/0/5/0/21272-_CAB-_01.jpg)
 			</figure>
@@ -202,7 +202,7 @@ To get started, users will need a few items. Some users may already have a few o
 
 	<div class="grid cards" markdown>
 
-	-   <a href="https://www.sparkfun.com/products/24063">
+	-   <a href="https://www.sparkfun.com/pinecil-soldering-iron-kit.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/4/3/8/5/KIT-24063-PINECIL-Soldering-Iron-Kit-Feature.jpg)
 		</figure>
@@ -212,7 +212,7 @@ To get started, users will need a few items. Some users may already have a few o
 		**PINECIL Soldering Iron Kit**<br>
 		KIT-24063</a>
 
-	-   <a href="https://www.sparkfun.com/products/9200">
+	-   <a href="https://www.sparkfun.com/hobby-knife.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/6/4/6/09200-Hobby_Knife-01.jpg)
 		</figure>
@@ -222,7 +222,7 @@ To get started, users will need a few items. Some users may already have a few o
 		**Hobby Knife**<br>
 		TOL-09200</a>
 
-	-   <a href="https://www.sparkfun.com/products/14579">
+	-   <a href="https://www.sparkfun.com/2-4ghz-duck-antenna-rp-sma.html79">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/2/7/2/5/14579-Chip_Quik_No-Clean_Flux_Pen_-_10mL-01.jpg)
 		</figure>
@@ -232,7 +232,7 @@ To get started, users will need a few items. Some users may already have a few o
 		**Chip Quik No-Clean Flux Pen - 10mL**<br>
 		TOL-14579</a>
 
-	-   <a href="https://www.sparkfun.com/products/9327">
+	-   <a href="https://www.sparkfun.com/solder-wick-2-5ft-generic.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/8/7/5/09327-Solder_Wick__2_5ft._-_Generic-01.jpg)
 		</figure>

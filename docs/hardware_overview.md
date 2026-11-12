@@ -365,7 +365,7 @@ Configuring the RTK Facet mosaic can be done over the *USB-Serial CH340* COM por
 
 This port is used when an external cellular or radio link is needed. Internally, it is routed to the mosaic-X5 **COM2** UART port. The baud rate is configurable; the default is **57600** baud. This port is *not* used if you transfer RTCM from your phone to the RTK Facet mosaic over Bluetooth.
 
-This 4-pin JST connector can be used to allow RTCM correction data to flow into the device when it is acting as a **Rover** or out of the device when it is acting as a **Base**. The connector is a 4-pin locking 1.25mm JST SMD connector (1). The RTK Facet mosaic comes with a cable to interface to this connector, but [additional cables](https://www.sparkfun.com/products/17239) can be purchased separately.
+This 4-pin JST connector can be used to allow RTCM correction data to flow into the device when it is acting as a **Rover** or out of the device when it is acting as a **Base**. The connector is a 4-pin locking 1.25mm JST SMD connector (1). The RTK Facet mosaic comes with a cable to interface to this connector, but [additional cables](https://www.sparkfun.com/jst-ghr-04v-to-jst-ghr-06v-cable-1-25mm-pitch.html) can be purchased separately.
 { .annotate }
 
 1. 
@@ -374,7 +374,7 @@ This 4-pin JST connector can be used to allow RTCM correction data to flow into 
 	- Mating cable connector
 		- **part#:** GHR-04V-S
 
-You will most likely connect one of our [Serial Telemetry Radios](https://www.sparkfun.com/products/19032) to this port, if you don't have access to a correction source on the internet. The pinout is **3.5-5.5V**/`TX`/`RX`/`GND` from left to right as pictured. **3.5V to 5.5V** is provided by this connector to power a radio with a voltage that depends on the power source. If USB is connected to the RTK Facet mosaic then voltage on this port will be **5V** (+/-10%). If running off of the internal battery then voltage on this port will vary with the battery voltage (**3.5V** to **4.2V** depending on the state of charge). This port is capable of sourcing up to **600mA** and is protected by a PTC (resettable fuse). This port should not be connected to a power source.
+You will most likely connect one of our [Serial Telemetry Radios](https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html) to this port, if you don't have access to a correction source on the internet. The pinout is **3.5-5.5V**/`TX`/`RX`/`GND` from left to right as pictured. **3.5V to 5.5V** is provided by this connector to power a radio with a voltage that depends on the power source. If USB is connected to the RTK Facet mosaic then voltage on this port will be **5V** (+/-10%). If running off of the internal battery then voltage on this port will vary with the battery voltage (**3.5V** to **4.2V** depending on the state of charge). This port is capable of sourcing up to **600mA** and is protected by a PTC (resettable fuse). This port should not be connected to a power source.
 
 ### DATA
 
@@ -386,7 +386,7 @@ You will most likely connect one of our [Serial Telemetry Radios](https://www.sp
 
 This port is used when an external system is connected such as a rover, car, timing equipment, camera triggers, etc. This port is *not* used if you transfer NMEA positional data to your phone from the RTK Facet mosaic over Bluetooth.
 
-This 4-pin JST connector is used to output and input a variety of data to the RTK Facet mosaic. The connector is a 4-pin locking 1.25mm JST SMD connector (1). The RTK Facet mosaic comes with a cable to interface to this connector, but [additional cables](https://www.sparkfun.com/products/17240) can be purchased separately.
+This 4-pin JST connector is used to output and input a variety of data to the RTK Facet mosaic. The connector is a 4-pin locking 1.25mm JST SMD connector (1). The RTK Facet mosaic comes with a cable to interface to this connector, but [additional cables](https://www.sparkfun.com/breadboard-to-jst-ghr-04v-cable-4-pin-x-1-25mm-pitch.html) can be purchased separately.
 { .annotate }
 
 1. 

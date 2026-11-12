@@ -31,7 +31,7 @@ The RTK Facet mosaic is an open source hardware product meaning you can fully ob
 The SparkPNT RTK Facet mosaic kit includes everything you need: the enclosed device, thread adapter, charger, data cables, and carrying case. It does **NOT** include a [surveying pole](https://www.sparkfun.com/telescopic-surveying-pole.html) *(any additional items will need to be purchased separately)*.
 
 > [!IMPORTANT]
-> The SparkPNT RTK Facet mosaic is not designed for permanent outdoor mounting. Please use the [RTK mosaic-X5](https://www.sparkfun.com/sparkfun-rtk-mosaic-x5.html) or the [RTK Reference Station](https://www.sparkfun.com/products/22429) that is located inside or protected from the elements. Or, for a DIY solution, the [ESP32](https://www.sparkfun.com/sparkfun-thing-plus-esp32-wroom-micro-b.html) attached to our [ZED-F9P breakout](https://www.sparkfun.com/sparkfun-gps-rtk-sma-breakout-zed-f9p-qwiic.html) is a great way to go. See our [How to Build a DIY GNSS Reference Station](https://learn.sparkfun.com/tutorials/how-to-build-a-diy-gnss-reference-station) tutorial for more information.
+> The SparkPNT RTK Facet mosaic is not designed for permanent outdoor mounting. Please use the [RTK mosaic-X5](https://www.sparkpnt.com/products/sparkpnt-sxm-e-cors) or the [RTK Reference Station](https://www.sparkfun.com/sparkfun-rtk-reference-station.html) that is located inside or protected from the elements. Or, for a DIY solution, the [ESP32](https://www.sparkfun.com/sparkfun-thing-plus-esp32-wroom-micro-b.html) attached to our [ZED-F9P breakout](https://www.sparkfun.com/sparkfun-gps-rtk-sma-breakout-zed-f9p-qwiic.html) is a great way to go. See our [How to Build a DIY GNSS Reference Station](https://learn.sparkfun.com/tutorials/how-to-build-a-diy-gnss-reference-station) tutorial for more information.
 
 > [!NOTE]
 > The [RTK Everywhere firmware](https://github.com/sparkfun/SparkFun_RTK_Everywhere_Firmware) is open-source, so users can obtain, check, and even modify the device's functionality. This allows for easier feature expansion, bug maintenance, and longer device longevity.
@@ -74,10 +74,10 @@ Product Variants
 - Facet Product Line
 	- [GPS-20000](https://www.sparkfun.com/sparkfun-rtk-facet-l-band.html) - SparkFun RTK Facet L-Band
 	- [GPS-19984](https://www.sparkfun.com/sparkfun-rtk-facet.html) - SparkFun RTK Facet
-	- [GPS-19029](https://www.sparkfun.com/products/19029) - SparkFun RTK Facet *(Initial Release)*
+	- [GPS-19029](https://www.sparkfun.com/sparkfun-rtk-facet.html) - SparkFun RTK Facet *(Initial Release)*
 - mosaic-`XX` GNSS Module
-	- [GPS-26289](https://www.sparkfun.com/products/26289) - SparkPNT GNSS Disciplined Oscillator
-	- [GPS-23748](https://www.sparkfun.com/sparkfun-rtk-mosaic-x5.html) - SparkFun RTK mosaic-X5
+	- [SXT](https://www.sparkpnt.com/products/sxt-gnssdo) - SparkPNT GNSS Disciplined Oscillator
+	- [SXM-E](https://www.sparkpnt.com/products/sparkpnt-sxm-e-cors) - SparkFun RTK mosaic-X5
 	- [GPS-23088](https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html) - SparkFun Triband GNSS RTK Breakout - mosaic-X5
 
 License Information
