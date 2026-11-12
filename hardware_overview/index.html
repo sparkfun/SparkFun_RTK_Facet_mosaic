@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/img/sfe-logo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
     
     
       
@@ -33,10 +33,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
   
@@ -210,6 +210,21 @@
       
     </div>
     <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+  <article style="text-align: center;">
+    <span class="twemoji sfe">
+      <svg xmlns="http://www.w3.org/2000/svg" width="15.955" height="24" viewbox="0 0 16 24"><title>SparkFun logo</title><path d="M13.03 3.838s.34 1.438-.745 1.638c-.756.134-1.976-.615-2.59-1.362-.756-.922-.66-1.647-.072-2.29.884-.978 2.397-.6 2.397-.6S9.248-1.209 6.362.783c-2.571 1.77-1.834 4.183.487 6.288 2.09 1.902.42 3.988-1.686 3.717-1.444-.184-2.035-1.343-1.688-2.054.299-.608 1.335-.982 1.335-.982s-1.19-.484-2.592.044C.96 8.27-.078 9.312.005 11.917V24s1.3-1.604 2.83-3.236c1.713-1.84 2.495-3.084 4.254-2.938 3.328.205 5.735-1.273 7.37-3.645 3.142-4.563.681-9.661-1.43-10.343" style="fill:#e0311d;fill-opacity:1;stroke-width:.66479"/></svg>
+    </span>
+    <strong>New Firmware Release:</strong> Beginning with firmware <code>v4.16.0+</code>, Septentrio's firmware will prevent users from downgrading to earlier versions for security reasons.</a>
+  </article>
+
+          </div>
+          
+        </aside>
       
     </div>
     
@@ -1957,9 +1972,8 @@ TOL-24059</a></p>
 </details>
 <h2 id="powersetup-button">Power/Setup Button<a class="headerlink" href="#powersetup-button" title="Permanent link"></a></h2>
 <figure>
-<p><a href="../assets/img/hookup_guide/button-external_power-setup.png" title="Click to enlarge"><img alt="RTK Facet mosaic Front Face" src="../assets/img/hookup_guide/button-external_power-setup.png" width="500" /></a></p>
-<figcaption></figcaption>
-<p>The <span class="keys"><kbd>POWER/SETUP</kbd></span> button on the front of the <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic.</p>
+<p><a href="../assets/img/hookup_guide/button-external_power-setup.png" title="Click to enlarge"><img alt="RTK Facet mosaic Front Face" src="../assets/img/hookup_guide/button-external_power-setup.png" width="500" /></a>
+The <span class="keys"><kbd>POWER/SETUP</kbd></span> button on the front of the <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic.</p>
 </figure>
 <p>The <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic has a <span class="keys"><kbd>POWER/SETUP</kbd></span> button to turn the device on/off or for in-field configuration changes.</p>
 <ul>
@@ -1971,8 +1985,9 @@ TOL-24059</a></p>
 </ul>
 </li>
 <li><strong>Base</strong><ul>
-<li><abbr title="Global Navigation Satellite System">GNSS</abbr> <strong>Base</strong> Station</li>
-<li><abbr title="Global Navigation Satellite System">GNSS</abbr> <strong>Base</strong> Station <em>as <abbr title="Networked Transport of RTCM via Internet Protocol">NTRIP</abbr> Server</em></li>
+<li><abbr title="Global Navigation Satellite System">GNSS</abbr> <strong>Base</strong> Station - Survey-In</li>
+<li><abbr title="Global Navigation Satellite System">GNSS</abbr> <strong>Base</strong> Station - Transmitting <abbr title="Radio Technical Commission for Maritime (Services)">RTCM</abbr> Data</li>
+<li><abbr title="Global Navigation Satellite System">GNSS</abbr> <strong>Base</strong> Station - <abbr title="Networked Transport of RTCM via Internet Protocol">NTRIP</abbr> Server</li>
 </ul>
 </li>
 </ul>
@@ -2045,7 +2060,6 @@ TOL-24059</a></p>
 <h3 id="usb"><abbr title="Universal Serial Bus">USB</abbr><a class="headerlink" href="#usb" title="Permanent link"></a></h3>
 <figure>
 <p><a href="../assets/img/hookup_guide/connections-usb.png" title="Click to enlarge"><img alt="RTK Facet mosaic USB-C Connector" src="../assets/img/hookup_guide/connections-usb.png" width="500" /></a></p>
-<figcaption></figcaption>
 </figure>
 <p>This <abbr title="Universal Serial Bus">USB</abbr>-C connector is used for four purposes:</p>
 <ul>
@@ -2056,7 +2070,6 @@ TOL-24059</a></p>
 <p>There is a <abbr title="Universal Serial Bus">USB</abbr> hub built into the <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic. When you attach the device to your computer it will enumerate as two COM ports. In the mosaic-X5 firmware, these are named the <em>USB1</em> and <em>USB2</em> COM ports.</p>
 <figure>
 <p><a href="https://cdn.sparkfun.com/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_Ports.jpg" target="_blank" rel="noopener"><img alt="Two COM ports from one USB device" src="https://cdn.sparkfun.com/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_Ports.jpg"></a></p>
-<figcaption></figcaption>
 </figure>
 <p>In the image above, the <code>USB-SERIAL CH340</code> is the ESP32 and the <code>USB Serial Device</code> is the mosaic-X5.</p>
 <details class="tip">
@@ -2129,10 +2142,9 @@ TOL-24059</a></p>
 <h3 id="radio">RADIO<a class="headerlink" href="#radio" title="Permanent link"></a></h3>
 <figure>
 <p><a href="../assets/img/hookup_guide/connections-radio.png" title="Click to enlarge"><img alt="RTK Facet mosaic Radio Connector" src="../assets/img/hookup_guide/connections-radio.png" width="500" /></a></p>
-<figcaption></figcaption>
 </figure>
 <p>This port is used when an external cellular or radio link is needed. Internally, it is routed to the mosaic-X5 <strong>COM2</strong> <abbr title="Universal Asynchronous Receiver-Transmitter">UART</abbr> port. The baud rate is configurable; the default is <strong>57600</strong> baud. This port is <em>not</em> used if you transfer <abbr title="Radio Technical Commission for Maritime (Services)">RTCM</abbr> from your phone to the <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic over Bluetooth.</p>
-<p class="annotate">This 4-pin <abbr title="Japan Solderless Terminal (Manufacturing)">JST</abbr> connector can be used to allow <abbr title="Radio Technical Commission for Maritime (Services)">RTCM</abbr> correction data to flow into the device when it is acting as a <strong>Rover</strong> or out of the device when it is acting as a <strong>Base</strong>. The connector is a 4-pin locking 1.25mm <abbr title="Japan Solderless Terminal (Manufacturing)">JST</abbr> SMD connector (1). The <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic comes with a cable to interface to this connector, but <a href="https://www.sparkfun.com/products/17239" target="_blank" rel="noopener">additional cables</a> can be purchased separately.</p>
+<p class="annotate">This 4-pin <abbr title="Japan Solderless Terminal (Manufacturing)">JST</abbr> connector can be used to allow <abbr title="Radio Technical Commission for Maritime (Services)">RTCM</abbr> correction data to flow into the device when it is acting as a <strong>Rover</strong> or out of the device when it is acting as a <strong>Base</strong>. The connector is a 4-pin locking 1.25mm <abbr title="Japan Solderless Terminal (Manufacturing)">JST</abbr> SMD connector (1). The <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic comes with a cable to interface to this connector, but <a href="https://www.sparkfun.com/jst-ghr-04v-to-jst-ghr-06v-cable-1-25mm-pitch.html" target="_blank" rel="noopener">additional cables</a> can be purchased separately.</p>
 <ol>
 <li>
 <ul>
@@ -2147,14 +2159,13 @@ TOL-24059</a></p>
 </ul>
 </li>
 </ol>
-<p>You will most likely connect one of our <a href="https://www.sparkfun.com/products/19032" target="_blank" rel="noopener">Serial Telemetry Radios</a> to this port, if you don't have access to a correction source on the internet. The pinout is <strong>3.5-5.5V</strong>/<code>TX</code>/<code>RX</code>/<code>GND</code> from left to right as pictured. <strong>3.5V to 5.5V</strong> is provided by this connector to power a radio with a voltage that depends on the power source. If <abbr title="Universal Serial Bus">USB</abbr> is connected to the <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic then voltage on this port will be <strong>5V</strong> (+/-10%). If running off of the internal battery then voltage on this port will vary with the battery voltage (<strong>3.5V</strong> to <strong>4.2V</strong> depending on the state of charge). This port is capable of sourcing up to <strong>600mA</strong> and is protected by a PTC (resettable fuse). This port should not be connected to a power source.</p>
+<p>You will most likely connect one of our <a href="https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html" target="_blank" rel="noopener">Serial Telemetry Radios</a> to this port, if you don't have access to a correction source on the internet. The pinout is <strong>3.5-5.5V</strong>/<code>TX</code>/<code>RX</code>/<code>GND</code> from left to right as pictured. <strong>3.5V to 5.5V</strong> is provided by this connector to power a radio with a voltage that depends on the power source. If <abbr title="Universal Serial Bus">USB</abbr> is connected to the <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic then voltage on this port will be <strong>5V</strong> (+/-10%). If running off of the internal battery then voltage on this port will vary with the battery voltage (<strong>3.5V</strong> to <strong>4.2V</strong> depending on the state of charge). This port is capable of sourcing up to <strong>600mA</strong> and is protected by a PTC (resettable fuse). This port should not be connected to a power source.</p>
 <h3 id="data">DATA<a class="headerlink" href="#data" title="Permanent link"></a></h3>
 <figure>
 <p><a href="../assets/img/hookup_guide/connections-data.png" title="Click to enlarge"><img alt="RTK Facet mosaic Data Port" src="../assets/img/hookup_guide/connections-data.png" width="500" /></a></p>
-<figcaption></figcaption>
 </figure>
 <p>This port is used when an external system is connected such as a rover, car, timing equipment, camera triggers, etc. This port is <em>not</em> used if you transfer <abbr title="National Marine Electronics Association">NMEA</abbr> positional data to your phone from the <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic over Bluetooth.</p>
-<p class="annotate">This 4-pin <abbr title="Japan Solderless Terminal (Manufacturing)">JST</abbr> connector is used to output and input a variety of data to the <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic. The connector is a 4-pin locking 1.25mm <abbr title="Japan Solderless Terminal (Manufacturing)">JST</abbr> SMD connector (1). The <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic comes with a cable to interface to this connector, but <a href="https://www.sparkfun.com/products/17240" target="_blank" rel="noopener">additional cables</a> can be purchased separately.</p>
+<p class="annotate">This 4-pin <abbr title="Japan Solderless Terminal (Manufacturing)">JST</abbr> connector is used to output and input a variety of data to the <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic. The connector is a 4-pin locking 1.25mm <abbr title="Japan Solderless Terminal (Manufacturing)">JST</abbr> SMD connector (1). The <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic comes with a cable to interface to this connector, but <a href="https://www.sparkfun.com/breadboard-to-jst-ghr-04v-cable-4-pin-x-1-25mm-pitch.html" target="_blank" rel="noopener">additional cables</a> can be purchased separately.</p>
 <ol>
 <li>
 <ul>
@@ -2179,8 +2190,7 @@ TOL-24059</a></p>
 <p>Most applications do not need to utilize this port and will send the <abbr title="National Marine Electronics Association">NMEA</abbr> position data over Bluetooth. This port can be useful for sending position data to an embedded microcontroller or single board computer. The pinout is <strong>3.3V</strong>/<code>TX</code>/<code>RX</code>/<code>GND</code>. <strong>3.3V</strong> from left to right as pictured, which is provided by this connector to power a remote device if needed. While the port is capable of sourcing up to <strong>600mA</strong>, we do not recommend more than <strong>300mA</strong>. This port should not be connected to a power source.</p>
 <h3 id="microsd">microSD<a class="headerlink" href="#microsd" title="Permanent link"></a></h3>
 <figure>
-<p><a href="../assets/img/hookup_guide/connections-micro_sd.png" title="Click to enlarge"><img alt="RTK Facet mosaic microSD connector" src="../assets/img/hookup_guide/connections-micro_sd.png" width="500" /></a>
-</figcaption></p>
+<p><a href="../assets/img/hookup_guide/connections-micro_sd.png" title="Click to enlarge"><img alt="RTK Facet mosaic microSD connector" src="../assets/img/hookup_guide/connections-micro_sd.png" width="500" /></a></figcaption></p>
 </figure>
 <p>This slot accepts standard microSD cards up to 32GB formatted for <code>FAT32</code>.</p>
 <p>The following messages are supported for logging:</p>
@@ -2260,13 +2270,11 @@ TOL-24059</a></p>
 <h3 id="qwiic">Qwiic<a class="headerlink" href="#qwiic" title="Permanent link"></a></h3>
 <figure>
 <p><a href="../assets/img/hookup_guide/connections-qwiic.png" title="Click to enlarge"><img alt="RTK Facet mosaic Qwiic connector" src="../assets/img/hookup_guide/connections-qwiic.png" width="500" /></a></p>
-<figcaption></figcaption>
 </figure>
 <p>This 4-pin <a href="https://www.sparkfun.com/qwiic" target="_blank" rel="noopener">Qwiic connector</a> exposes the I<sup>2</sup>C bus of the ESP32-WROVER-E module. Currently, there is no firmware support for adding I<sup>2</sup>C devices to the <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic, but support may be added in the future.</p>
 <h3 id="antenna">Antenna<a class="headerlink" href="#antenna" title="Permanent link"></a></h3>
 <figure>
 <p><a href="../assets/img/hookup_guide/antenna.png" title="Click to enlarge"><img alt="Internal RTK Facet mosaic Antenna" src="../assets/img/hookup_guide/antenna.png" width="500" /></a></p>
-<figcaption></figcaption>
 </figure>
 <p>It's built in! Housed under the dome of the <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic is a surveyor grade L1/L2/L5 antenna. This antenna is a unique combination of elements designed to receive the <abbr title="Global Navigation Satellite System">GNSS</abbr> signals (L1/L2/L5).</p>
 <figure>
@@ -2294,9 +2302,8 @@ TOL-24059</a></p>
 </ul>
 <h2 id="display">Display<a class="headerlink" href="#display" title="Permanent link"></a></h2>
 <figure>
-<p><a href="../assets/img/hookup_guide/display.png" title="Click to enlarge"><img alt="RTK Facet mosaic Front Face" src="../assets/img/hookup_guide/display.png" width="500" /></a></p>
-<figcaption></figcaption>
-<p>The display on the front of the <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic.</p>
+<p><a href="../assets/img/hookup_guide/display.png" title="Click to enlarge"><img alt="RTK Facet mosaic Front Face" src="../assets/img/hookup_guide/display.png" width="500" /></a>
+The display on the front of the <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic.</p>
 </figure>
 <p>The <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Facet mosaic has a 0.96" high-contrast OLED display. While small, it packs various situational data that can be helpful in the field. Please see the <a href="https://sparkfun.github.io/SparkFun_RTK_Firmware/displays/" target="_blank" rel="noopener">SparkFun <abbr title="Real-Time Kinematic (Positioning)">RTK</abbr> Everywhere Firmware Manual</a> for a description of the information being displayed.</p>
 <!-- *[FAT16]: File Allocation Table-16 -->
@@ -2372,7 +2379,7 @@ TOL-24059</a></p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 15, 2025 20:30:11 UTC"><span class="timeago" datetime="2025-09-15T20:30:11+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 15, 2025 20:30:11 UTC">2025-09-15</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="November 12, 2026 21:31:01 UTC"><span class="timeago" datetime="2026-11-12T21:31:01+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="November 12, 2026 21:31:01 UTC">2026-11-12</span>
   </span>
 
     
@@ -2387,39 +2394,6 @@ TOL-24059</a></p>
 
     
     
-    
-      
-  <span class="md-source-file__fact">
-    
-      
-  <span class="md-icon" title="Contributors">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg>
-  </span>
-  <span>GitHub</span>
-
-    
-    <nav>
-      
-        <a href="https://github.com/santaimpersonator" class="md-author" title="@santaimpersonator" target="_blank" rel="noopener">
-          
-          <img src="https://avatars.githubusercontent.com/u/36016723?v=4&amp;size=72" alt="santaimpersonator">
-        </a>
-      
-        <a href="https://github.com/nseidle" class="md-author" title="@nseidle" target="_blank" rel="noopener">
-          
-          <img src="https://avatars.githubusercontent.com/u/117102?v=4&amp;size=72" alt="nseidle">
-        </a>
-      
-        <a href="https://github.com/PaulZC" class="md-author" title="@PaulZC" target="_blank" rel="noopener">
-          
-          <img src="https://avatars.githubusercontent.com/u/5690545?v=4&amp;size=72" alt="PaulZC">
-        </a>
-      
-      
-      
-    </nav>
-  </span>
-
     
   </aside>
 
@@ -2516,7 +2490,7 @@ TOL-24059</a></p>
 <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-			Copyright 2025 - <a href="https://www.sparkfun.com/pnt" target="_blank" rel="noopener">SparkPNT&#174;</a><br> <a href="https://goo.gl/maps/vkstCpQZW6jZMjzYA" target="_blank" rel="noopener">6333 Dry Creek Parkway, Niwot, Colorado 80503</a>
+			Copyright 2026 - <a href="https://www.sparkfun.com/pnt" target="_blank" rel="noopener">SparkPNT&#174;</a><br> <a href="https://goo.gl/maps/vkstCpQZW6jZMjzYA" target="_blank" rel="noopener">6333 Dry Creek Parkway, Niwot, Colorado 80503</a>
     </div>
   
   
@@ -2768,10 +2742,10 @@ TOL-24059</a></p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.code.select", "content.code.annotate", "content.action.edit", "content.tooltips", "navigation.footer", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.path", "navigation.instant.preview", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.code.select", "content.code.annotate", "content.action.edit", "content.tooltips", "navigation.footer", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.path", "navigation.instant.preview", "search.highlight"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../js/timeago.min.js"></script>
       
