@@ -161,8 +161,6 @@ The design of the SparkPNT RTK Facet mosaic is similar to previous generations i
 
 <figure markdown>
 [![RTK Facet mosaic Front Face](./assets/img/hookup_guide/button-external_power-setup.png){ width="500" }](./assets/img/hookup_guide/button-external_power-setup.png "Click to enlarge")
-<figcaption markdown>
-</figcaption>
 The ++"POWER/SETUP"++ button on the front of the RTK Facet mosaic.
 </figure>
 
@@ -183,9 +181,7 @@ The RTK Facet mosaic has a ++"POWER/SETUP"++ button to turn the device on/off or
 
 <figure markdown>
 [![RTK Facet mosaic startup display with firmware version number](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_Boot.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_Boot.jpg)
-<figcaption markdown>
-The splash screen of RTK Facet mosaic display showing the firmware version number and the device powering off.
-</figcaption>
+<figcaption markdown>The splash screen of RTK Facet mosaic display showing the firmware version number and the device powering off.</figcaption>
 </figure>
 
 The Power button turns the unit on or off:
@@ -199,9 +195,7 @@ The Power button turns the unit on or off:
 
 <figure markdown>
 [![RTK Facet mosaic showing the battery level](https://cdn.sparkfun.com/assets/learn_tutorials/1/8/5/7/SparkFun_RTK_Express_-_Display_-_Rover_Fixed.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/1/8/5/7/SparkFun_RTK_Express_-_Display_-_Rover_Fixed.jpg)
-<figcaption markdown>
-RTK Facet mosaic display, showing the battery level.
-</figcaption>
+<figcaption markdown>RTK Facet mosaic display, showing the battery level.</figcaption>
 </figure>
 
 The RTK Facet mosaic has a large, built-in 6000mAh lithium polymer battery that will enable over **25 hours** of field use between charging. If more time is needed a common USB power bank can be attached boosting the field time to any amount needed.
@@ -214,9 +208,7 @@ The RTK Facet mosaic has a large, built-in 6000mAh lithium polymer battery that 
 
 <figure markdown>
 [![RTK Facet mosaic Charge LED](./assets/img/hookup_guide/LED-charge.png){ width="500" }](./assets/img/hookup_guide/LED-charge.png "Click to enlarge")
-<figcaption markdown>
-Charge LED indicator on the RTK Facet mosaic.
-</figcaption>
+<figcaption markdown>Charge LED indicator on the RTK Facet mosaic.</figcaption>
 </figure>
 
 The Charge LED is located on the front face. It will illuminate any time there is an external power source and will turn off when the internal battery is charged. With the unit fully powered down, charging takes approximately **6 hours** from a 1A wall supply or **12 hours** from a standard USB port. The RTK Facet mosaic can run while being charged but it increases the charge time. Using an external USB battery bank to run the device for extended periods or running the device on a permanent wall power source is supported.
@@ -245,9 +237,7 @@ At *Power On* the device will enter **Rover** or **Base** mode; whichever state 
 
 <figure markdown>
 [![RTK Facet mosaic Connectors](./assets/img/hookup_guide/connections.png){ width="500" }](./assets/img/hookup_guide/connections.png "Click to enlarge")
-<figcaption markdown>
-The SparkFun RTK Facet mosaic connectors shown with the dust cover removed.
-</figcaption>
+<figcaption markdown>The SparkFun RTK Facet mosaic connectors shown with the dust cover removed.</figcaption>
 </figure>
 
 There are a variety of connectors protected under a dust flap.
@@ -256,8 +246,6 @@ There are a variety of connectors protected under a dust flap.
 
 <figure markdown>
 [![RTK Facet mosaic USB-C Connector](./assets/img/hookup_guide/connections-usb.png){ width="500" }](./assets/img/hookup_guide/connections-usb.png "Click to enlarge")
-<figcaption markdown>
-</figcaption>
 </figure>
 
 This USB-C connector is used for four purposes:
@@ -270,8 +258,6 @@ There is a USB hub built into the RTK Facet mosaic. When you attach the device t
 
 <figure markdown>
 [![Two COM ports from one USB device](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_Ports.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_Ports.jpg)
-<figcaption markdown>
-</figcaption>
 </figure>
 
 In the image above, the `USB-SERIAL CH340` is the ESP32 and the `USB Serial Device` is the mosaic-X5.
@@ -359,8 +345,6 @@ Configuring the RTK Facet mosaic can be done over the *USB-Serial CH340* COM por
 
 <figure markdown>
 [![RTK Facet mosaic Radio Connector](./assets/img/hookup_guide/connections-radio.png){ width="500" }](./assets/img/hookup_guide/connections-radio.png "Click to enlarge")
-<figcaption markdown>
-</figcaption>
 </figure>
 
 This port is used when an external cellular or radio link is needed. Internally, it is routed to the mosaic-X5 **COM2** UART port. The baud rate is configurable; the default is **57600** baud. This port is *not* used if you transfer RTCM from your phone to the RTK Facet mosaic over Bluetooth.
@@ -380,8 +364,6 @@ You will most likely connect one of our [Serial Telemetry Radios](https://www.sp
 
 <figure markdown>
 [![RTK Facet mosaic Data Port](./assets/img/hookup_guide/connections-data.png){ width="500" }](./assets/img/hookup_guide/connections-data.png "Click to enlarge")
-<figcaption markdown>
-</figcaption>
 </figure>
 
 This port is used when an external system is connected such as a rover, car, timing equipment, camera triggers, etc. This port is *not* used if you transfer NMEA positional data to your phone from the RTK Facet mosaic over Bluetooth.
@@ -409,8 +391,7 @@ Most applications do not need to utilize this port and will send the NMEA positi
 ### microSD
 
 <figure markdown>
-[![RTK Facet mosaic microSD connector](./assets/img/hookup_guide/connections-micro_sd.png){ width="500" }](./assets/img/hookup_guide/connections-micro_sd.png "Click to enlarge")
-</figcaption>
+[![RTK Facet mosaic microSD connector](./assets/img/hookup_guide/connections-micro_sd.png){ width="500" }](./assets/img/hookup_guide/connections-micro_sd.png "Click to enlarge")</figcaption>
 </figure>
 
 This slot accepts standard microSD cards up to 32GB formatted for `FAT32`.
@@ -496,8 +477,6 @@ The following messages are supported for logging:
 
 <figure markdown>
 [![RTK Facet mosaic Qwiic connector](./assets/img/hookup_guide/connections-qwiic.png){ width="500" }](./assets/img/hookup_guide/connections-qwiic.png "Click to enlarge")
-<figcaption markdown>
-</figcaption>
 </figure>
 
 This 4-pin [Qwiic connector](https://www.sparkfun.com/qwiic) exposes the I^2^C bus of the ESP32-WROVER-E module. Currently, there is no firmware support for adding I^2^C devices to the RTK Facet mosaic, but support may be added in the future.
@@ -508,17 +487,13 @@ This 4-pin [Qwiic connector](https://www.sparkfun.com/qwiic) exposes the I^2^C b
 
 <figure markdown>
 [![Internal RTK Facet mosaic Antenna](./assets/img/hookup_guide/antenna.png){ width="500" }](./assets/img/hookup_guide/antenna.png "Click to enlarge")
-<figcaption markdown>
-</figcaption>
 </figure>
 
 It's built in! Housed under the dome of the RTK Facet mosaic is a surveyor grade L1/L2/L5 antenna. This antenna is a unique combination of elements designed to receive the GNSS signals (L1/L2/L5).
 
 <figure markdown>
 [![SparkFun RTK Facet mosaic Antenna Reference Point](https://cdn.sparkfun.com/r/500-500/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_ARP.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/2/5/8/3/SparkFun_RTK_Facet_L-Band_ARP.jpg)
-<figcaption markdown>
-SparkFun RTK Facet mosaic Antenna Reference Points
-</figcaption>
+<figcaption markdown>SparkFun RTK Facet mosaic Antenna Reference Points</figcaption>
 </figure>
 
 The built-in antenna has an antenna phase center (APC) of 69mm from the base of the device to the measuring point of the L1 antenna and an APC of 68mm to the measuring point of the L2 antenna.
@@ -529,9 +504,7 @@ The built-in antenna has an antenna phase center (APC) of 69mm from the base of 
 
 <figure markdown>
 [![RTK Facet mosaic Display showing three battery bars](https://cdn.sparkfun.com/assets/learn_tutorials/1/8/5/7/SparkFun_RTK_Express_-_Display_-_Rover_RTK_Fixed.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/1/8/5/7/SparkFun_RTK_Express_-_Display_-_Rover_RTK_Fixed.jpg)
-<figcaption markdown>
-RTK Facet mosaic Display showing three battery bars
-</figcaption>
+<figcaption markdown>RTK Facet mosaic Display showing three battery bars</figcaption>
 </figure>
 
 The RTK Facet mosaic has a built in **6000mAh** battery and consumes approximately **240mA** worst case with Bluetooth connection active and GNSS fully tracking. This will allow for around *25 hours* of use in the field. If more time is needed in the field a standard USB power bank can be attached. If a *10,000mAh* bank is attached one can estimate *56 hours* of run time; assuming, 25% of the capacity is lost to efficiencies of the power bank and charge circuit within RTK Facet mosaic.
@@ -550,8 +523,6 @@ To quickly view the state of charge, turn on the unit. The battery icon will ind
 
 <figure markdown>
 [![RTK Facet mosaic Front Face](./assets/img/hookup_guide/display.png){ width="500" }](./assets/img/hookup_guide/display.png "Click to enlarge")
-<figcaption markdown>
-</figcaption>
 The display on the front of the RTK Facet mosaic.
 </figure>
 

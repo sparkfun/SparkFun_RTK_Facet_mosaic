@@ -58,7 +58,7 @@
 *[PICO]: Peripheral In; Ccontroller Out
 *[POCI]: Peripheral Out; Controller In
 *[PSK]: Phase-Shift Keying
-*[PSRAM]: Pseudo-Static RAM 
+*[PSRAM]: Pseudo-Static RAM
 *[PWM]: Pulse Width Modulation
 *[QSPI]: Quad-SPI
 *[QPSK]: Quadrature Phase-Shift Keying
